@@ -7,78 +7,238 @@
     "lng": 121.2340,
     "country": "Taiwan"
   },
-  {
-    "name": "Tokyo Narita International Airport",
+   {
     "iata": "NRT",
     "icao": "RJAA",
-    "lat": 35.7720,
-    "lng": 140.3929,
+    "name": "Narita International Airport",
+    "lat": 35.771987,
+    "lng": 140.392850,
     "country": "Japan"
   },
   {
-    "name": "Tokyo Haneda Airport",
     "iata": "HND",
     "icao": "RJTT",
-    "country": "Japan",
+    "name": "Tokyo Haneda Airport",
     "lat": 35.549393,
-    "lng": 139.779838
+    "lng": 139.779838,
+    "country": "Japan"
   },
   {
-    "name": "Kansai International Airport",
     "iata": "KIX",
     "icao": "RJBB",
-    "country": "Japan",
+    "name": "Kansai International Airport",
     "lat": 34.434167,
-    "lng": 135.244167
+    "lng": 135.244167,
+    "country": "Japan"
   },
   {
-    "name": "Chubu Centrair International Airport",
     "iata": "NGO",
     "icao": "RJGG",
-    "country": "Japan",
+    "name": "Chubu Centrair International Airport",
     "lat": 34.858361,
-    "lng": 136.804728
+    "lng": 136.804728,
+    "country": "Japan"
   },
   {
-    "name": "Fukuoka Airport",
-    "iata": "FUK",
-    "icao": "RJFF",
-    "country": "Japan",
-    "lat": 33.590355,
-    "lng": 130.450629
-  },
-  {
-    "name": "New Chitose Airport",
     "iata": "CTS",
     "icao": "RJCC",
-    "country": "Japan",
+    "name": "New Chitose Airport",
     "lat": 42.775222,
-    "lng": 141.692375
+    "lng": 141.692375,
+    "country": "Japan"
   },
   {
-    "name": "Hiroshima Airport",
-    "iata": "HIJ",
-    "icao": "RJOA",
-    "country": "Japan",
-    "lat": 34.436203,
-    "lng": 132.919319
+    "iata": "FUK",
+    "icao": "RJFF",
+    "name": "Fukuoka Airport",
+    "lat": 33.590355,
+    "lng": 130.450629,
+    "country": "Japan"
   },
   {
-    "name": "Kagoshima Airport",
-    "iata": "KOJ",
-    "icao": "RJFK",
-    "country": "Japan",
-    "lat": 31.803333,
-    "lng": 130.718056
-  },
-  {
-    "name": "Naha Airport",
     "iata": "OKA",
     "icao": "ROAH",
-    "country": "Japan",
+    "name": "Naha Airport",
     "lat": 26.195833,
-    "lng": 127.646111
-  }
+    "lng": 127.646111,
+    "country": "Japan"
+  },
+  {
+    "iata": "ITM",
+    "icao": "RJOO",
+    "name": "Osaka International Airport (Itami)",
+    "lat": 34.785528,
+    "lng": 135.438222,
+    "country": "Japan"
+  },
+  {
+    "iata": "SPK",
+    "icao": "RJCC",
+    "name": "Sapporo (Combined with CTS)",
+    "lat": 42.775200,
+    "lng": 141.692000,
+    "country": "Japan"
+  },
+  {
+    "iata": "HIJ",
+    "icao": "RJOA",
+    "name": "Hiroshima Airport",
+    "lat": 34.436203,
+    "lng": 132.919319,
+    "country": "Japan"
+  },
+  {
+    "iata": "KOJ",
+    "icao": "RJFK",
+    "name": "Kagoshima Airport",
+    "lat": 31.803333,
+    "lng": 130.718056,
+    "country": "Japan"
+  },
+  {
+    "iata": "NGS",
+    "icao": "RJFU",
+    "name": "Nagasaki Airport",
+    "lat": 32.916944,
+    "lng": 129.914444,
+    "country": "Japan"
+  },
+  {
+    "iata": "KMQ",
+    "icao": "RJNK",
+    "name": "Komatsu Airport",
+    "lat": 36.395833,
+    "lng": 136.406667,
+    "country": "Japan"
+  },
+  {
+    "iata": "SDJ",
+    "icao": "RJSS",
+    "name": "Sendai Airport",
+    "lat": 38.139722,
+    "lng": 140.917500,
+    "country": "Japan"
+  },
+  {
+    "iata": "TAK",
+    "icao": "RJOT",
+    "name": "Takamatsu Airport",
+    "lat": 34.214167,
+    "lng": 134.016389,
+    "country": "Japan"
+  },
+  {
+    "iata": "TKS",
+    "icao": "RJOS",
+    "name": "Tokushima Airport",
+    "lat": 34.132808,
+    "lng": 134.606639,
+    "country": "Japan"
+  },
+  {
+    "iata": "KCZ",
+    "icao": "RJOK",
+    "name": "Kochi Ryoma Airport",
+    "lat": 33.546111,
+    "lng": 133.669444,
+    "country": "Japan"
+  },
+  {
+    "iata": "MYJ",
+    "icao": "RJOM",
+    "name": "Matsuyama Airport",
+    "lat": 33.827222,
+    "lng": 132.699722,
+    "country": "Japan"
+  },
+  {
+    "iata": "UBJ",
+    "icao": "RJDC",
+    "name": "Yamaguchi Ube Airport",
+    "lat": 33.930000,
+    "lng": 131.279167,
+    "country": "Japan"
+  },
+  {
+    "iata": "OIT",
+    "icao": "RJFO",
+    "name": "Oita Airport",
+    "lat": 33.479444,
+    "lng": 131.736111,
+    "country": "Japan"
+  },
+  {
+    "iata": "KMI",
+    "icao": "RJFM",
+    "name": "Miyazaki Airport",
+    "lat": 31.877222,
+    "lng": 131.449722,
+    "country": "Japan"
+  },
+  {
+    "iata": "ASJ",
+    "icao": "RJKA",
+    "name": "Amami Airport",
+    "lat": 28.430556,
+    "lng": 129.712222,
+    "country": "Japan"
+  },
+  {
+    "iata": "MMY",
+    "icao": "ROMY",
+    "name": "Miyako Airport",
+    "lat": 24.782833,
+    "lng": 125.294833,
+    "country": "Japan"
+  },
+  {
+    "iata": "SHM",
+    "icao": "RJBD",
+    "name": "Shirahama Airport",
+    "lat": 33.662222,
+    "lng": 135.364444,
+    "country": "Japan"
+  },
+  {
+    "iata": "AXT",
+    "icao": "RJSK",
+    "name": "Akita Airport",
+    "lat": 39.615556,
+    "lng": 140.218611,
+    "country": "Japan"
+  },
+  {
+    "iata": "AOJ",
+    "icao": "RJSA",
+    "name": "Aomori Airport",
+    "lat": 40.734722,
+    "lng": 140.690833,
+    "country": "Japan"
+  },
+  {
+    "iata": "KUH",
+    "icao": "RJEC",
+    "name": "Kushiro Airport",
+    "lat": 43.046944,
+    "lng": 144.193333,
+    "country": "Japan"
+  },
+  {
+    "iata": "HKD",
+    "icao": "RJCH",
+    "name": "Hakodate Airport",
+    "lat": 41.770000,
+    "lng": 140.821944,
+    "country": "Japan"
+  },
+  {
+    "iata": "OKD",
+    "icao": "RJCO",
+    "name": "Okadama Airport (Sapporo)",
+    "lat": 43.116111,
+    "lng": 141.380000,
+    "country": "Japan"
+  },
   {
     "name": "Los Angeles International Airport",
     "iata": "LAX",
