@@ -16,6 +16,70 @@
     "country": "Japan"
   },
   {
+    "name": "Tokyo Haneda Airport",
+    "iata": "HND",
+    "icao": "RJTT",
+    "country": "Japan",
+    "lat": 35.549393,
+    "lng": 139.779838
+  },
+  {
+    "name": "Kansai International Airport",
+    "iata": "KIX",
+    "icao": "RJBB",
+    "country": "Japan",
+    "lat": 34.434167,
+    "lng": 135.244167
+  },
+  {
+    "name": "Chubu Centrair International Airport",
+    "iata": "NGO",
+    "icao": "RJGG",
+    "country": "Japan",
+    "lat": 34.858361,
+    "lng": 136.804728
+  },
+  {
+    "name": "Fukuoka Airport",
+    "iata": "FUK",
+    "icao": "RJFF",
+    "country": "Japan",
+    "lat": 33.590355,
+    "lng": 130.450629
+  },
+  {
+    "name": "New Chitose Airport",
+    "iata": "CTS",
+    "icao": "RJCC",
+    "country": "Japan",
+    "lat": 42.775222,
+    "lng": 141.692375
+  },
+  {
+    "name": "Hiroshima Airport",
+    "iata": "HIJ",
+    "icao": "RJOA",
+    "country": "Japan",
+    "lat": 34.436203,
+    "lng": 132.919319
+  },
+  {
+    "name": "Kagoshima Airport",
+    "iata": "KOJ",
+    "icao": "RJFK",
+    "country": "Japan",
+    "lat": 31.803333,
+    "lng": 130.718056
+  },
+  {
+    "name": "Naha Airport",
+    "iata": "OKA",
+    "icao": "ROAH",
+    "country": "Japan",
+    "lat": 26.195833,
+    "lng": 127.646111
+  }
+  {
     "name": "Los Angeles International Airport",
     "iata": "LAX",
     "icao": "KLAX",
