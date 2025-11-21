@@ -71,6 +71,7 @@
                 Country: ${airport.country}
               `)
               .on("click", () => {
+                console.log("Clicked airport:", airport.iata);
                 clearLines();
 
                 let start = airport.iata;
@@ -101,3 +102,4 @@
 
 </body>
 </html>
+
