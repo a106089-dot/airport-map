@@ -28,7 +28,7 @@
       maxZoom: 6
     }).addTo(map);
 
-    // 2. 全域變數（儲存機場與航線）
+    // 2. 全域變數
     let airports = {};
     let routes = [];
     let currentLines = [];
@@ -39,24 +39,23 @@
     }
 
     // 3. 載入機場資料
-    fetch("airports.json")
+    fetch("airports.json?v=" + new Date().getTime()) // 加亂數避免快取
       .then(res => res.json())
       .then(data => {
         data.forEach(a => {
-          airports[a.iata] = a; // 以 IATA 三碼當 key
+          airports[a.iata] = a; 
         });
-
-        // 機場載入後才載入航線
         loadRoutesAndMarkers(data);
       });
 
     function loadRoutesAndMarkers(airportList) {
 
       // 4. 載入航線資料
-      fetch("routes.json")
+      fetch("routes.json?v=" + new Date().getTime()) // 防快取
         .then(res => res.json())
         .then(r => {
           routes = r;
+          console.log("Loaded routes:", routes);
 
           // 5. 建立機場 marker
           airportList.forEach(airport => {
@@ -75,20 +74,23 @@
                 clearLines();
 
                 let start = airport.iata;
-
-                // 找出從這個機場出發的航線
                 let dests = routes.filter(r => r.from === start);
+                console.log("Destinations from clicked airport:", dests);
 
                 dests.forEach(rt => {
                   let toAirport = airports[rt.to];
-                  if (!toAirport) return;
+                  if (!toAirport) {
+                    console.warn("No airport data for:", rt.to);
+                    return;
+                  }
 
+                  // 線條顏色鮮明、加粗
                   let line = L.polyline(
                     [
                       [airport.lat, airport.lng],
                       [toAirport.lat, toAirport.lng]
                     ],
-                    { weight: 2 }
+                    { weight: 4, color: "red", opacity: 1 }
                   ).addTo(map);
 
                   currentLines.push(line);
@@ -102,4 +104,3 @@
 
 </body>
 </html>
-
