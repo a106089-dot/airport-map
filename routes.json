@@ -1,5 +1,30 @@
 [
   { "from": "TPE", "to": "NRT" },
+  { "from": "TPE", "to": "HND" },
+  { "from": "TPE", "to": "HSG" },
+  { "from": "TPE", "to": "KMI" },
+  { "from": "TPE", "to": "KIX" },
+  { "from": "TPE", "to": "CTS" },
+  { "from": "TPE", "to": "OKA" },
+  { "from": "TPE", "to": "HKD" },
+  { "from": "TPE", "to": "FUK" },
+  { "from": "TPE", "to": "AKJ" },
+  { "from": "TPE", "to": "AXT" },
+  { "from": "TPE", "to": "KCZ" },
+  { "from": "TPE", "to": "YGJ" },
+  { "from": "TPE", "to": "NGO" },
+  { "from": "TPE", "to": "FKS" },
+  { "from": "TPE", "to": "OKJ" },
+  { "from": "TPE", "to": "KMQ" },
+  { "from": "TPE", "to": "OIT" },
+  { "from": "TPE", "to": "HNA" },
+  { "from": "TPE", "to": "SDJ" },
+  { "from": "TPE", "to": "KIJ" },
+  { "from": "TPE", "to": "ISG" },
+  
+
+
+  
   { "from": "LAX", "to": "TPE" },
   { "from": "NRT", "to": "LAX" }
 ]
