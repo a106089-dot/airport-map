@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Global Airport Map</title>
+  <title>Airport Route Map</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Leaflet CSS -->
@@ -20,31 +20,83 @@
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 
   <script>
-    // 初始化地圖
+
+    // 1. 初始化地圖
     var map = L.map('map').setView([20, 0], 2);
 
-    // OSM 底圖
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 6
     }).addTo(map);
 
-    // 載入機場資料
+    // 2. 全域變數（儲存機場與航線）
+    let airports = {};
+    let routes = [];
+    let currentLines = [];
+
+    function clearLines() {
+      currentLines.forEach(line => map.removeLayer(line));
+      currentLines = [];
+    }
+
+    // 3. 載入機場資料
     fetch("airports.json")
       .then(res => res.json())
       .then(data => {
-        data.forEach(airport => {
-          if (!airport.lat || !airport.lng) return;
-
-          L.marker([airport.lat, airport.lng])
-            .addTo(map)
-            .bindPopup(`
-              <b>${airport.name}</b><br>
-              IATA: ${airport.iata}<br>
-              ICAO: ${airport.icao}<br>
-              Country: ${airport.country}
-            `);
+        data.forEach(a => {
+          airports[a.iata] = a; // 以 IATA 三碼當 key
         });
+
+        // 機場載入後才載入航線
+        loadRoutesAndMarkers(data);
       });
+
+    function loadRoutesAndMarkers(airportList) {
+
+      // 4. 載入航線資料
+      fetch("routes.json")
+        .then(res => res.json())
+        .then(r => {
+          routes = r;
+
+          // 5. 建立機場 marker
+          airportList.forEach(airport => {
+            if (!airport.lat || !airport.lng) return;
+
+            L.marker([airport.lat, airport.lng])
+              .addTo(map)
+              .bindPopup(`
+                <b>${airport.name}</b><br>
+                IATA: ${airport.iata}<br>
+                ICAO: ${airport.icao}<br>
+                Country: ${airport.country}
+              `)
+              .on("click", () => {
+                clearLines();
+
+                let start = airport.iata;
+
+                // 找出從這個機場出發的航線
+                let dests = routes.filter(r => r.from === start);
+
+                dests.forEach(rt => {
+                  let toAirport = airports[rt.to];
+                  if (!toAirport) return;
+
+                  let line = L.polyline(
+                    [
+                      [airport.lat, airport.lng],
+                      [toAirport.lat, toAirport.lng]
+                    ],
+                    { weight: 2 }
+                  ).addTo(map);
+
+                  currentLines.push(line);
+                });
+              });
+          });
+        });
+    }
+
   </script>
 
 </body>
