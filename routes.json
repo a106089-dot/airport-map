@@ -1,5 +1,5 @@
 [
   { "from": "TPE", "to": "NRT" },
   { "from": "TPE", "to": "LAX" },
-  { "from": "NRT", "to": "SFO" }
+  { "from": "NRT", "to": "LAX" }
 ]
