@@ -1,6 +1,6 @@
 [
   { "from": "TPE", "to": "NRT" },
-  { "from": "TPE", "to": "LAX" },
+//  { "from": "TPE", "to": "LAX" },
   { "from": "LAX", "to": "TPE" },
   { "from": "NRT", "to": "LAX" }
 ]
