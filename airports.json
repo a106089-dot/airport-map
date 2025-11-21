@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Taipei Taoyuan International Airport",
+    "iata": "TPE",
+    "icao": "RCTP",
+    "lat": 25.0797,
+    "lng": 121.2340,
+    "country": "Taiwan"
+  },
+  {
+    "name": "Tokyo Narita International Airport",
+    "iata": "NRT",
+    "icao": "RJAA",
+    "lat": 35.7720,
+    "lng": 140.3929,
+    "country": "Japan"
+  },
+  {
+    "name": "Los Angeles International Airport",
+    "iata": "LAX",
+    "icao": "KLAX",
+    "lat": 33.9425,
+    "lng": -118.4081,
+    "country": "United States"
+  }
+]
