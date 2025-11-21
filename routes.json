@@ -1,0 +1,14 @@
+[
+  {
+    "from": "TPE",
+    "to": "NRT"
+  },
+  {
+    "from": "TPE",
+    "to": "LAX"
+  },
+  {
+    "from": "NRT",
+    "to": "SFO"
+  }
+]
