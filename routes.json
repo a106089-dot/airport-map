@@ -21,10 +21,6 @@
   { "from": "TPE", "to": "SDJ" },
   { "from": "TPE", "to": "KIJ" },
   { "from": "TPE", "to": "ISG" },
-  
-
-
-  
   { "from": "LAX", "to": "TPE" },
   { "from": "NRT", "to": "LAX" }
 ]
