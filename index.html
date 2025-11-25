@@ -76,16 +76,24 @@
 
                 let start = airport.iata;
                 // 雙向航線：from=start 或 to=start 都算
-                let dests = routes.filter(r => r.from === start);
+                let dests = routes.filter(r => r.from === start || r.to === start);
                 console.log("Destinations from clicked airport:", dests);
 
                 dests.forEach(rt => {
-                  let toAirport = airports[rt.to];
-                  if (!toAirport) {
-                    console.warn("No airport data for:", rt.to);
-                    return;
+                  let fromAirport, toAirport;
+
+                  // 判斷是正向還是反向
+                  if (rt.from === start) {
+                    fromAirport = airports[rt.from];
+                    toAirport = airports[rt.to];
+                  } else {
+                    fromAirport = airports[rt.to];
+                    toAirport = airports[rt.from];
                   }
 
+                  if (!fromAirport || !toAirport) return;
+                  
+                  
                   // 線條顏色鮮明、加粗
                   let line = L.polyline(
                     [
