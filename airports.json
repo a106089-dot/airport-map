@@ -8,6 +8,38 @@
     "country": "Taiwan" 
   },
   {
+    "name": "Taichung International Airport",
+    "iata": "RMQ",
+    "icao": "RCMQ",
+    "lat": 24.2647,
+    "lng": 120.6210,
+    "country": "Taiwan"
+  },
+  {
+    "name": "Tainan Airport",
+    "iata": "TNN",
+    "icao": "RCNN",
+    "lat": 22.9503,
+    "lng": 120.2060,
+    "country": "Taiwan"
+  },
+  {
+    "name": "Kaohsiung International Airport",
+    "iata": "KHH",
+    "icao": "RCKH",
+    "lat": 22.5771,
+    "lng": 120.3500,
+    "country": "Taiwan"
+  },
+  {
+    "name": "Taipei Songshan Airport",
+    "iata": "TSA",
+    "icao": "RCSS",
+    "lat": 25.0694,
+    "lng": 121.5520,
+    "country": "Taiwan"
+  },
+  {
     "name": "Narita International Airport",
     "iata": "NRT",
     "icao": "RJAA",
