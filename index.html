@@ -26,42 +26,35 @@
       maxZoom: 12
     }).addTo(map);
 
-    // 2. 全域變數
+    // 2. 資料
     let airports = {};
     let routes = [];
     let currentLines = [];
 
-    // === 新增：航空公司顏色表 ===
+    // 航空公司顏色
     const airlineColors = {
       "IT": "#ff8800",
-      "CI": "#003d79",
+      "CI": "#5A3E85",
       "BR": "#007a3d",
-      "JX": "#f4c542",
-      "GK": "#8000ff"
+      "JX": "#C2A56C",
+      "GK": "#FF6E00"
     };
-
-    function getAirlineColor(airlines) {
-      return airlineColors[airlines[0]] || "#000000";
-    }
-    // ============================
 
     function clearLines() {
       currentLines.forEach(line => map.removeLayer(line));
       currentLines = [];
     }
 
-    // 3. 載入機場資料
+    // 3. 載入機場
     fetch("airports.json?v=" + new Date().getTime())
       .then(res => res.json())
       .then(data => {
-        data.forEach(a => {
-          airports[a.iata] = a;
-        });
+        data.forEach(a => airports[a.iata] = a);
         loadRoutesAndMarkers(data);
       });
 
+    // 4. 載入航線 + 設定 marker
     function loadRoutesAndMarkers(airportList) {
-
       fetch("routes.json?v=" + new Date().getTime())
         .then(res => res.json())
         .then(r => {
@@ -81,7 +74,6 @@
 
               .on("click", () => {
                 clearLines();
-
                 let start = airport.iata;
 
                 // 雙向航線
@@ -100,22 +92,42 @@
 
                   if (!fromAirport || !toAirport) return;
 
-                  // === 修改：使用航空公司顏色 ===
-                  let lineColor = getAirlineColor(rt.airline);
+                  // === 每家航空公司畫一條線 ===
+                  rt.airline.forEach((airline, idx) => {
+                    let color = airlineColors[airline] || "#B3B3B3";
 
-                  let line = L.polyline(
-                    [
-                      [fromAirport.lat, fromAirport.lng],
-                      [toAirport.lat, toAirport.lng]
-                    ],
-                    {
-                      weight: 2,
-                      color: lineColor,
-                      opacity: 1
+                    // 計算原航線向量
+                    let dx = toAirport.lng - fromAirport.lng;
+                    let dy = toAirport.lat - fromAirport.lat;
+                    let length = Math.sqrt(dx * dx + dy * dy);
+                    if (length === 0) return;
+
+                    // 單位垂直向量
+                    let nx = -dy / length;
+                    let ny = dx / length;
+
+                    // 偏移距離
+                    let offset = 0;
+                    if (idx > 0) {
+                      offset = 0.005 * ((idx % 2 === 0 ? 1 : -1) * Math.ceil(idx / 2));
                     }
-                  ).addTo(map);
 
-                  currentLines.push(line);
+                    let fromLatOffset = fromAirport.lat + ny * offset;
+                    let fromLngOffset = fromAirport.lng + nx * offset;
+                    let toLatOffset   = toAirport.lat   + ny * offset;
+                    let toLngOffset   = toAirport.lng   + nx * offset;
+
+                    let line = L.polyline(
+                      [
+                        [fromLatOffset, fromLngOffset],
+                        [toLatOffset, toLngOffset]
+                      ],
+                      { weight: 2, color: color, opacity: 1 }
+                    ).addTo(map);
+
+                    currentLines.push(line);
+                  });
+
                 });
               });
           });
