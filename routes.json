@@ -1,6 +1,6 @@
 [
   { "from": "TPE", "to": "NRT", "airline": ["IT", "CI", "BR", "JX", "GK"]  },
-  { "from": "TPE", "to": "HND", "airline": ["IT"] },
+  { "from": "TPE", "to": "HND", "airline": ["BR"] },
   { "from": "TPE", "to": "HSG", "airline": ["IT"] },
   { "from": "TPE", "to": "KMI", "airline": ["IT"] },
   { "from": "TPE", "to": "KIX", "airline": ["IT", "CI", "BR", "JX", "GK"] },

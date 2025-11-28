@@ -5,7 +5,6 @@
   <title>Airport Route Map</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Leaflet CSS -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 
   <style>
@@ -16,7 +15,6 @@
 <body>
   <div id="map"></div>
 
-  <!-- Leaflet JS -->
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 
   <script>
@@ -33,31 +31,42 @@
     let routes = [];
     let currentLines = [];
 
+    // === 新增：航空公司顏色表 ===
+    const airlineColors = {
+      "IT": "#ff8800",
+      "CI": "#003d79",
+      "BR": "#007a3d",
+      "JX": "#f4c542",
+      "GK": "#8000ff"
+    };
+
+    function getAirlineColor(airlines) {
+      return airlineColors[airlines[0]] || "#000000";
+    }
+    // ============================
+
     function clearLines() {
       currentLines.forEach(line => map.removeLayer(line));
       currentLines = [];
     }
 
     // 3. 載入機場資料
-    fetch("airports.json?v=" + new Date().getTime()) // 加亂數避免快取
+    fetch("airports.json?v=" + new Date().getTime())
       .then(res => res.json())
       .then(data => {
         data.forEach(a => {
-          airports[a.iata] = a; 
+          airports[a.iata] = a;
         });
         loadRoutesAndMarkers(data);
       });
 
     function loadRoutesAndMarkers(airportList) {
 
-      // 4. 載入航線資料
-      fetch("routes.json?v=" + new Date().getTime()) // 防快取
+      fetch("routes.json?v=" + new Date().getTime())
         .then(res => res.json())
         .then(r => {
           routes = r;
-          console.log("Loaded routes:", routes);
 
-          // 5. 建立機場 marker
           airportList.forEach(airport => {
             if (!airport.lat || !airport.lng) return;
 
@@ -69,20 +78,18 @@
                 ICAO: ${airport.icao}<br>
                 Country: ${airport.country}
               `)
-              
+
               .on("click", () => {
-                console.log("Clicked airport:", airport.iata);
                 clearLines();
 
                 let start = airport.iata;
-                // 雙向航線：from=start 或 to=start 都算
+
+                // 雙向航線
                 let dests = routes.filter(r => r.from === start || r.to === start);
-                console.log("Destinations from clicked airport:", dests);
 
                 dests.forEach(rt => {
                   let fromAirport, toAirport;
 
-                  // 判斷是正向還是反向
                   if (rt.from === start) {
                     fromAirport = airports[rt.from];
                     toAirport = airports[rt.to];
@@ -92,15 +99,20 @@
                   }
 
                   if (!fromAirport || !toAirport) return;
-                  
-                  
-                  // 線條顏色鮮明、加粗
+
+                  // === 修改：使用航空公司顏色 ===
+                  let lineColor = getAirlineColor(rt.airline);
+
                   let line = L.polyline(
                     [
-                      [airport.lat, airport.lng],
+                      [fromAirport.lat, fromAirport.lng],
                       [toAirport.lat, toAirport.lng]
                     ],
-                    { weight: 1, color: "blue", opacity: 1 }
+                    {
+                      weight: 2,
+                      color: lineColor,
+                      opacity: 1
+                    }
                   ).addTo(map);
 
                   currentLines.push(line);
@@ -111,10 +123,5 @@
     }
 
   </script>
-
 </body>
 </html>
-
-
-
-
