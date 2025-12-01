@@ -15,7 +15,9 @@
 <body>
   <div id="map"></div>
 
+
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="airlineColors.js"></script>
 
   <script>
 
@@ -31,15 +33,7 @@
     let routes = [];
     let currentLines = [];
 
-    // 航空公司顏色
-    const airlineColors = {
-      "IT": "#ff8800",
-      "CI": "#5A3E85",
-      "BR": "#007a3d",
-      "JX": "#C2A56C",
-      "GK": "#FF6E00"
-    };
-
+    
     function clearLines() {
       currentLines.forEach(line => map.removeLayer(line));
       currentLines = [];
