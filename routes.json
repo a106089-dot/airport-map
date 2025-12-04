@@ -20,7 +20,91 @@
   { "from": "TPE", "to": "HNA", "airline": ["IT"] },
   { "from": "TPE", "to": "SDJ", "airline": ["IT", "BR", "JX"] },
   { "from": "TPE", "to": "KIJ", "airline": ["IT"] },
-  { "from": "TPE", "to": "ISG", "airline": ["IT"] }
+  { "from": "TPE", "to": "ISG", "airline": ["IT"] },
+  
+  { "from": "TSA", "to": "HND", "airline": ["CI"] },
+  { "from": "TPE", "to": "FSZ", "airline": ["CI"] },
+  { "from": "TPE", "to": "TOY", "airline": ["CI"] },
+  { "from": "TPE", "to": "HIJ", "airline": ["CI"] },
+  { "from": "TPE", "to": "KMJ", "airline": ["CI"] },
+  { "from": "TPE", "to": "TAK", "airline": ["CI"] },
+  { "from": "TPE", "to": "KOJ", "airline": ["CI"] },
+
+  { "from": "TSA", "to": "GMP", "airline": ["CI"] },
+  { "from": "TPE", "to": "ICN", "airline": ["CI"] },
+  { "from": "TPE", "to": "PUS", "airline": ["CI"] },
+
+  { "from": "TPE", "to": "BKK", "airline": ["CI"] },
+  { "from": "TPE", "to": "CNX", "airline": ["CI"] },
+
+  { "from": "TPE", "to": "KUL", "airline": ["CI"] },
+  { "from": "TPE", "to": "PEN", "airline": ["CI"] },
+
+  { "from": "TPE", "to": "SIN", "airline": ["CI"] },
+
+  { "from": "TPE", "to": "CGK", "airline": ["CI"] },
+  { "from": "TPE", "to": "DPS", "airline": ["CI"] },
+
+  { "from": "TPE", "to": "SGN", "airline": ["CI"] },
+  { "from": "TPE", "to": "DAD", "airline": ["CI"] },
+  { "from": "TPE", "to": "HAN", "airline": ["CI"] },
+
+  { "from": "TPE", "to": "RGN", "airline": ["CI"] },
+
+  { "from": "TPE", "to": "PNH", "airline": ["CI"] },
+
+  { "from": "TPE", "to": "ROR", "airline": ["CI"] },
+
+  { "from": "TPE", "to": "MNL", "airline": ["CI"] },
+  { "from": "TPE", "to": "CEB", "airline": ["CI"] },
+
+  { "from": "TPE", "to": "HKG", "airline": ["CI"] },
+
+  { "from": "TSA", "to": "SHA", "airline": ["CI"] },
+  { "from": "TPE", "to": "PEK", "airline": ["CI"] },
+  { "from": "TPE", "to": "PVG", "airline": ["CI"] },
+  { "from": "TPE", "to": "CAN", "airline": ["CI"] },
+  { "from": "TPE", "to": "SZX", "airline": ["CI"] },
+  { "from": "TPE", "to": "TFU", "airline": ["CI"] },
+
+  { "from": "TPE", "to": "LAX", "airline": ["CI"] },
+  { "from": "TPE", "to": "ONT", "airline": ["CI"] },
+  { "from": "TPE", "to": "PHX", "airline": ["CI"] },
+  { "from": "TPE", "to": "SFO", "airline": ["CI"] },
+  { "from": "TPE", "to": "SEA", "airline": ["CI"] },
+  { "from": "TPE", "to": "JFK", "airline": ["CI"] },
+
+  { "from": "TPE", "to": "YVR", "airline": ["CI"] },
+
+  { "from": "TPE", "to": "SYD", "airline": ["CI"] },
+  { "from": "TPE", "to": "BNE", "airline": ["CI"] },
+  { "from": "BNE", "to": "AKL", "airline": ["CI"] },
+  { "from": "TPE", "to": "MEL", "airline": ["CI"] },
+
+  { "from": "TPE", "to": "FRA", "airline": ["CI"] },
+  { "from": "TPE", "to": "AMS", "airline": ["CI"] },
+  { "from": "TPE", "to": "LHR", "airline": ["CI"] },
+  { "from": "TPE", "to": "VIE", "airline": ["CI"] },
+  { "from": "TPE", "to": "PRG", "airline": ["CI"] },
+  { "from": "TPE", "to": "FCO", "airline": ["CI"] },
+
+  { "from": "KHH", "to": "NRT", "airline": ["CI"] },
+  { "from": "KHH", "to": "KIX", "airline": ["CI"] },
+  { "from": "KHH", "to": "FUK", "airline": ["CI"] },
+  { "from": "KHH", "to": "KMJ", "airline": ["CI"] },
+  { "from": "KHH", "to": "OKJ", "airline": ["CI"] },
+  { "from": "KHH", "to": "ICN", "airline": ["CI"] },
+
+  { "from": "KHH", "to": "BKK", "airline": ["CI"] },
+
+  { "from": "KHH", "to": "SIN", "airline": ["CI"] },
+  { "from": "KHH", "to": "MNL", "airline": ["CI"] },
+  { "from": "KHH", "to": "HNK", "airline": ["CI"] },
+  { "from": "KHH", "to": "PVG", "airline": ["CI"] },
+  { "from": "KHH", "to": "SZX", "airline": ["CI"] },
+  { "from": "KHH", "to": "CKG", "airline": ["CI"] }
+   
+
 ]
 
 

@@ -214,5 +214,407 @@
     "lat": 24.340000,
     "lng": 124.186667,
     "country": "Japan"
-  }
+  },
+  {
+  "iata": "FSZ",
+  "icao": "RJNS",
+  "name": "Mt. Fuji Shizuoka Airport",
+  "lat": 34.79611,
+  "lng": 138.18944,
+  "country": "Japan"
+},
+{
+  "name": "Toyama Airport",
+  "iata": "TOY",
+  "icao": "RJNT",
+  "lat": 36.64830,
+  "lng": 137.18740,
+  "country": "Japan"
+},
+{
+  "name": "Kumamoto Airport",
+  "iata": "KMJ",
+  "icao": "RJFT",
+  "lat": 32.83720,
+  "lng": 130.85560,
+  "country": "Japan"
+},
+{
+  "name": "Hiroshima Airport",
+  "iata": "HIJ",
+  "icao": "RJOA",
+  "lat": 34.43610,
+  "lng": 132.91940,
+  "country": "Japan"
+},
+{
+  "name": "Takamatsu Airport",
+  "iata": "TAK",
+  "icao": "RJOT",
+  "lat": 34.21420,
+  "lng": 134.01600,
+  "country": "Japan"
+},
+{
+  "name": "Kagoshima Airport",
+  "iata": "KOJ",
+  "icao": "RJFK",
+  "lat": 31.80340,
+  "lng": 130.71890,
+  "country": "Japan"
+},
+
+{
+  "name": "Seoul Gimpo International Airport",
+  "iata": "GMP",
+  "icao": "RKSS",
+  "lat": 37.55830,
+  "lng": 126.79060,
+  "country": "South Korea"
+},
+{
+  "name": "Incheon International Airport",
+  "iata": "ICN",
+  "icao": "RKSI",
+  "lat": 37.46020,
+  "lng": 126.44070,
+  "country": "South Korea"
+},
+{
+  "name": "Busan Gimhae International Airport",
+  "iata": "PUS",
+  "icao": "RKPK",
+  "lat": 35.17960,
+  "lng": 128.93820,
+  "country": "South Korea"
+},
+
+{
+  "name": "Suvarnabhumi Airport",
+  "iata": "BKK",
+  "icao": "VTBS",
+  "lat": 13.69000,
+  "lng": 100.75010,
+  "country": "Thailand"
+},
+{
+  "name": "Chiang Mai International Airport",
+  "iata": "CNX",
+  "icao": "VTCC",
+  "lat": 18.76650,
+  "lng": 98.96230,
+  "country": "Thailand"
+},
+
+{
+  "name": "Kuala Lumpur International Airport",
+  "iata": "KUL",
+  "icao": "WMKK",
+  "lat": 2.74560,
+  "lng": 101.70940,
+  "country": "Malaysia"
+},
+{
+  "name": "Penang International Airport",
+  "iata": "PEN",
+  "icao": "WMKP",
+  "lat": 5.29750,
+  "lng": 100.27780,
+  "country": "Malaysia"
+},
+{
+  "name": "Singapore Changi Airport",
+  "iata": "SIN",
+  "icao": "WSSS",
+  "lat": 1.36440,
+  "lng": 103.99150,
+  "country": "Singapore"
+},
+{
+  "name": "Soekarno-Hatta International Airport",
+  "iata": "CGK",
+  "icao": "WIII",
+  "lat": -6.12560,
+  "lng": 106.65590,
+  "country": "Indonesia"
+},
+{
+  "name": "Ngurah Rai International Airport",
+  "iata": "DPS",
+  "icao": "WADD",
+  "lat": -8.74810,
+  "lng": 115.16750,
+  "country": "Indonesia"
+},
+{
+  "name": "Tan Son Nhat International Airport",
+  "iata": "SGN",
+  "icao": "VVTS",
+  "lat": 10.81890,
+  "lng": 106.65200,
+  "country": "Vietnam"
+},
+{
+  "name": "Da Nang International Airport",
+  "iata": "DAD",
+  "icao": "VVDN",
+  "lat": 16.04310,
+  "lng": 108.19960,
+  "country": "Vietnam"
+},
+{
+  "name": "Noi Bai International Airport",
+  "iata": "HAN",
+  "icao": "VVNB",
+  "lat": 21.21810,
+  "lng": 105.80420,
+  "country": "Vietnam"
+},
+{
+  "name": "Yangon International Airport",
+  "iata": "RGN",
+  "icao": "VYYY",
+  "lat": 16.90730,
+  "lng": 96.13320,
+  "country": "Myanmar"
+},
+{
+  "name": "Phnom Penh International Airport",
+  "iata": "PNH",
+  "icao": "VDPP",
+  "lat": 11.54660,
+  "lng": 104.84410,
+  "country": "Cambodia"
+},
+{
+  "name": "Babeldaob Koror Airport",
+  "iata": "ROR",
+  "icao": "PTRO",
+  "lat": 7.36750,
+  "lng": 134.54410,
+  "country": "Palau"
+},
+{
+  "name": "Ninoy Aquino International Airport",
+  "iata": "MNL",
+  "icao": "RPLL",
+  "lat": 14.50860,
+  "lng": 121.01960,
+  "country": "Philippines"
+},
+{
+  "name": "Mactan-Cebu International Airport",
+  "iata": "CEB",
+  "icao": "RPVM",
+  "lat": 10.30710,
+  "lng": 123.97940,
+  "country": "Philippines"
+},
+{
+  "name": "Hong Kong International Airport",
+  "iata": "HKG",
+  "icao": "VHHH",
+  "lat": 22.30800,
+  "lng": 113.91850,
+  "country": "Hong Kong"
+},
+{
+  "name": "Shanghai Hongqiao International Airport",
+  "iata": "SHA",
+  "icao": "ZSSS",
+  "lat": 31.19680,
+  "lng": 121.33630,
+  "country": "China"
+},
+{
+  "name": "Beijing Capital International Airport",
+  "iata": "PEK",
+  "icao": "ZBAA",
+  "lat": 40.08010,
+  "lng": 116.58460,
+  "country": "China"
+},
+{
+  "name": "Shanghai Pudong International Airport",
+  "iata": "PVG",
+  "icao": "ZSPD",
+  "lat": 31.14430,
+  "lng": 121.80830,
+  "country": "China"
+},
+{
+  "name": "Guangzhou Baiyun International Airport",
+  "iata": "CAN",
+  "icao": "ZGGG",
+  "lat": 23.39240,
+  "lng": 113.29900,
+  "country": "China"
+},
+{
+  "name": "Shenzhen Bao'an International Airport",
+  "iata": "SZX",
+  "icao": "ZGSZ",
+  "lat": 22.63930,
+  "lng": 113.81070,
+  "country": "China"
+},
+{
+  "name": "Chengdu Tianfu International Airport",
+  "iata": "TFU",
+  "icao": "ZUTF",
+  "lat": 30.57850,
+  "lng": 104.06460,
+  "country": "China"
+},
+{
+  "name": "Chongqing Jiangbei International Airport",
+  "iata": "CKG",
+  "icao": "ZUCK",
+  "lat": 29.71920,
+  "lng": 106.64190,
+  "country": "China"
+},
+{
+  "name": "Los Angeles International Airport",
+  "iata": "LAX",
+  "icao": "KLAX",
+  "lat": 33.9425,
+  "lng": -118.4081,
+  "country": "United States"
+},
+{
+  "name": "LA/Ontario International Airport",
+  "iata": "ONT",
+  "icao": "KONT",
+  "lat": 34.05560,
+  "lng": -117.60090,
+  "country": "United States"
+},
+{
+  "name": "Phoenix Sky Harbor International Airport",
+  "iata": "PHX",
+  "icao": "KPHX",
+  "lat": 33.43730,
+  "lng": -112.00750,
+  "country": "United States"
+},
+{
+  "name": "San Francisco International Airport",
+  "iata": "SFO",
+  "icao": "KSFO",
+  "lat": 37.62130,
+  "lng": -122.37900,
+  "country": "United States"
+},
+{
+  "name": "Seattle-Tacoma International Airport",
+  "iata": "SEA",
+  "icao": "KSEA",
+  "lat": 47.45020,
+  "lng": -122.30880,
+  "country": "United States"
+},
+{
+  "name": "John F. Kennedy International Airport",
+  "iata": "JFK",
+  "icao": "KJFK",
+  "lat": 40.64130,
+  "lng": -73.77810,
+  "country": "United States"
+},
+{
+  "name": "Vancouver International Airport",
+  "iata": "YVR",
+  "icao": "CYVR",
+  "lat": 49.19470,
+  "lng": -123.17940,
+  "country": "Canada"
+},
+{
+  "name": "Sydney Kingsford Smith Airport",
+  "iata": "SYD",
+  "icao": "YSSY",
+  "lat": -33.93990,
+  "lng": 151.17530,
+  "country": "Australia"
+},
+{
+  "name": "Brisbane Airport",
+  "iata": "BNE",
+  "icao": "YBBN",
+  "lat": -27.38420,
+  "lng": 153.11700,
+  "country": "Australia"
+},
+{
+  "name": "Auckland Airport",
+  "iata": "AKL",
+  "icao": "NZAA",
+  "lat": -37.00820,
+  "lng": 174.79170,
+  "country": "New Zealand"
+},
+{
+  "name": "Melbourne Airport",
+  "iata": "MEL",
+  "icao": "YMML",
+  "lat": -37.67330,
+  "lng": 144.84330,
+  "country": "Australia"
+},
+{
+  "name": "Frankfurt am Main Airport",
+  "iata": "FRA",
+  "icao": "EDDF",
+  "lat": 50.03790,
+  "lng": 8.56220,
+  "country": "Germany"
+},
+{
+  "name": "Amsterdam Airport Schiphol",
+  "iata": "AMS",
+  "icao": "EHAM",
+  "lat": 52.31050,
+  "lng": 4.76830,
+  "country": "Netherlands"
+},
+{
+  "name": "London Heathrow Airport",
+  "iata": "LHR",
+  "icao": "EGLL",
+  "lat": 51.47000,
+  "lng": -0.45430,
+  "country": "United Kingdom"
+},
+{
+  "name": "Vienna International Airport",
+  "iata": "VIE",
+  "icao": "LOWW",
+  "lat": 48.11030,
+  "lng": 16.56970,
+  "country": "Austria"
+},
+{
+  "name": "Václav Havel Airport Prague",
+  "iata": "PRG",
+  "icao": "LKPR",
+  "lat": 50.10080,
+  "lng": 14.26000,
+  "country": "Czech Republic"
+},
+{
+  "name": "Rome–Fiumicino International Airport",
+  "iata": "FCO",
+  "icao": "LIRF",
+  "lat": 41.80030,
+  "lng": 12.23890,
+  "country": "Italy"
+}
+
+
+
+
+
+
+
 ]
