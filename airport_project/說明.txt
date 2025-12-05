@@ -1,0 +1,13 @@
+建立新機場資訊
+1 收集所有路線使用機場
+2 在此資料夾用CMD
+3 輸入
+node -v
+確認有版本
+載點
+https://nodejs.org/zh-tw
+4 輸入
+node generate_airports.js
+會輸出一個檔案
+5 缺失的另外加入
+6 貼到繪圖資料夾

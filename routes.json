@@ -1,11 +1,11 @@
 [
-  { "from": "TPE", "to": "NRT", "airline": ["IT", "CI", "BR", "JX", "GK"]  },
+  { "from": "TPE", "to": "NRT", "airline": ["IT", "CI", "BR", "JX", "GK"] },
   { "from": "TPE", "to": "HND", "airline": ["IT"] },
   { "from": "TPE", "to": "HSG", "airline": ["IT"] },
   { "from": "TPE", "to": "KMI", "airline": ["IT"] },
   { "from": "TPE", "to": "KIX", "airline": ["IT", "CI", "BR", "JX", "GK"] },
   { "from": "TPE", "to": "CTS", "airline": ["IT", "CI", "BR", "JX"] },
-  { "from": "TPE", "to": "OKA", "airline": ["IT", "CI", "BR", "JX"] },
+  { "from": "TPE", "to": "OKA", "airline": ["IT", "CI", "BR"] },
   { "from": "TPE", "to": "HKD", "airline": ["IT", "JX"] },
   { "from": "TPE", "to": "FUK", "airline": ["IT", "CI", "BR", "JX"] },
   { "from": "TPE", "to": "AKJ", "airline": ["IT"] },
@@ -21,8 +21,48 @@
   { "from": "TPE", "to": "SDJ", "airline": ["IT", "BR", "JX"] },
   { "from": "TPE", "to": "KIJ", "airline": ["IT"] },
   { "from": "TPE", "to": "ISG", "airline": ["IT"] },
+  { "from": "TPE", "to": "CJU", "airline": ["IT"] },
+  { "from": "TPE", "to": "PUS", "airline": ["IT", "CI", "BR"] },
+  { "from": "TPE", "to": "ICN", "airline": ["IT", "CI", "BR"] },
+  { "from": "TPE", "to": "HKT", "airline": ["IT"] },
+  { "from": "TPE", "to": "DAD", "airline": ["IT", "CI", "BR"] },
+
+  { "note": "台中飛"},
+  { "from": "RMQ", "to": "CJU", "airline": ["IT"] },
+  { "from": "RMQ", "to": "MFM", "airline": ["IT"] },
+  { "from": "RMQ", "to": "NGO", "airline": ["IT"] },
   
-  { "from": "TSA", "to": "HND", "airline": ["CI"] },
+  { "note": "高雄飛日本"},
+  { "from": "KHH", "to": "NRT", "airline": ["IT", "CI", "BR"] },
+  { "from": "KHH", "to": "KIX", "airline": ["IT", "CI", "BR"] },
+  { "from": "KHH", "to": "CTS", "airline": ["IT"] },
+  { "from": "KHH", "to": "OKA", "airline": ["IT"] },
+  { "from": "KHH", "to": "OKJ", "airline": ["IT", "CI"] },
+  { "from": "KHH", "to": "NGO", "airline": ["IT"] },
+  { "from": "KHH", "to": "FUK", "airline": ["IT", "CI", "BR"] },
+  { "from": "KHH", "to": "KMJ", "airline": ["IT", "CI"] },
+  
+  { "from": "KHH", "to": "CJU", "airline": ["IT"] },
+  { "from": "KHH", "to": "GMP", "airline": ["IT"] },
+  { "from": "KHH", "to": "DAD", "airline": ["IT"] },
+  { "from": "KHH", "to": "MFM", "airline": ["IT", "BR"] },
+
+  { "from": "KHH", "to": "ICN", "airline": ["CI", "BR"] },
+  { "from": "KHH", "to": "BKK", "airline": ["CI"] },
+  { "from": "KHH", "to": "SIN", "airline": ["CI"] },
+  { "from": "KHH", "to": "MNL", "airline": ["CI"] },
+  { "from": "KHH", "to": "HKG", "airline": ["CI", "BR"] },
+  { "from": "KHH", "to": "PVG", "airline": ["CI", "BR"] },
+  { "from": "KHH", "to": "SZX", "airline": ["CI"] },
+  { "from": "KHH", "to": "CKG", "airline": ["CI"] },
+
+  { "from": "TNN", "to": "KMJ", "airline": ["IT"] },
+  { "from": "TNN", "to": "OKA", "airline": ["IT"] },
+
+  { "from": "TSA", "to": "HND", "airline": ["CI", "BR"] },
+  { "from": "TSA", "to": "GMP", "airline": ["CI", "BR"] },
+  { "from": "TSA", "to": "SHA", "airline": ["CI", "BR"] },
+
   { "from": "TPE", "to": "FSZ", "airline": ["CI"] },
   { "from": "TPE", "to": "TOY", "airline": ["CI"] },
   { "from": "TPE", "to": "HIJ", "airline": ["CI"] },
@@ -30,82 +70,70 @@
   { "from": "TPE", "to": "TAK", "airline": ["CI"] },
   { "from": "TPE", "to": "KOJ", "airline": ["CI"] },
 
-  { "from": "TSA", "to": "GMP", "airline": ["CI"] },
-  { "from": "TPE", "to": "ICN", "airline": ["CI"] },
-  { "from": "TPE", "to": "PUS", "airline": ["CI"] },
+  { "from": "TPE", "to": "BKK", "airline": ["CI", "BR"] },
+  { "from": "TPE", "to": "CNX", "airline": ["CI", "BR"] },
 
-  { "from": "TPE", "to": "BKK", "airline": ["CI"] },
-  { "from": "TPE", "to": "CNX", "airline": ["CI"] },
+  { "from": "TPE", "to": "KUL", "airline": ["CI", "BR"] },
+  { "from": "TPE", "to": "PEN", "airline": ["CI", "BR"] },
+  { "from": "TPE", "to": "SIN", "airline": ["CI", "BR"] },
 
-  { "from": "TPE", "to": "KUL", "airline": ["CI"] },
-  { "from": "TPE", "to": "PEN", "airline": ["CI"] },
+  { "from": "TPE", "to": "CGK", "airline": ["CI", "BR"] },
+  { "from": "TPE", "to": "DPS", "airline": ["CI", "BR"] },
 
-  { "from": "TPE", "to": "SIN", "airline": ["CI"] },
-
-  { "from": "TPE", "to": "CGK", "airline": ["CI"] },
-  { "from": "TPE", "to": "DPS", "airline": ["CI"] },
-
-  { "from": "TPE", "to": "SGN", "airline": ["CI"] },
-  { "from": "TPE", "to": "DAD", "airline": ["CI"] },
-  { "from": "TPE", "to": "HAN", "airline": ["CI"] },
+  { "from": "TPE", "to": "SGN", "airline": ["CI", "BR"] },
+  { "from": "TPE", "to": "HAN", "airline": ["CI", "BR"] },
 
   { "from": "TPE", "to": "RGN", "airline": ["CI"] },
-
   { "from": "TPE", "to": "PNH", "airline": ["CI"] },
-
   { "from": "TPE", "to": "ROR", "airline": ["CI"] },
 
-  { "from": "TPE", "to": "MNL", "airline": ["CI"] },
-  { "from": "TPE", "to": "CEB", "airline": ["CI"] },
+  { "from": "TPE", "to": "MNL", "airline": ["CI", "BR"] },
+  { "from": "TPE", "to": "CEB", "airline": ["CI", "BR"] },
+  { "from": "TPE", "to": "CRK", "airline": ["BR"] },
 
-  { "from": "TPE", "to": "HKG", "airline": ["CI"] },
+  { "from": "TPE", "to": "HKG", "airline": ["CI", "BR"] },
 
-  { "from": "TSA", "to": "SHA", "airline": ["CI"] },
-  { "from": "TPE", "to": "PEK", "airline": ["CI"] },
-  { "from": "TPE", "to": "PVG", "airline": ["CI"] },
-  { "from": "TPE", "to": "CAN", "airline": ["CI"] },
-  { "from": "TPE", "to": "SZX", "airline": ["CI"] },
-  { "from": "TPE", "to": "TFU", "airline": ["CI"] },
+  { "from": "TPE", "to": "PEK", "airline": ["CI", "BR"] },
+  { "from": "TPE", "to": "PVG", "airline": ["CI", "BR"] },
+  { "from": "TPE", "to": "CAN", "airline": ["CI", "BR"] },
+  { "from": "TPE", "to": "SZX", "airline": ["CI", "BR"] },
+  { "from": "TPE", "to": "TFU", "airline": ["CI", "BR"] },
+  { "from": "TPE", "to": "CKG", "airline": ["CI", "BR"] },
 
-  { "from": "TPE", "to": "LAX", "airline": ["CI"] },
+  { "from": "TPE", "to": "LAX", "airline": ["CI", "BR"] },
   { "from": "TPE", "to": "ONT", "airline": ["CI"] },
   { "from": "TPE", "to": "PHX", "airline": ["CI"] },
   { "from": "TPE", "to": "SFO", "airline": ["CI"] },
-  { "from": "TPE", "to": "SEA", "airline": ["CI"] },
-  { "from": "TPE", "to": "JFK", "airline": ["CI"] },
+  { "from": "TPE", "to": "SEA", "airline": ["CI", "BR"] },
+  { "from": "TPE", "to": "JFK", "airline": ["CI", "BR"] },
+  { "from": "TPE", "to": "ORD", "airline": ["BR"] },
+  { "from": "TPE", "to": "DFW", "airline": ["BR"] },
+  { "from": "TPE", "to": "IAH", "airline": ["BR"] },
 
-  { "from": "TPE", "to": "YVR", "airline": ["CI"] },
+  { "from": "TPE", "to": "YVR", "airline": ["CI", "BR"] },
+  { "from": "TPE", "to": "YYZ", "airline": ["BR"] },
 
   { "from": "TPE", "to": "SYD", "airline": ["CI"] },
-  { "from": "TPE", "to": "BNE", "airline": ["CI"] },
+  { "from": "TPE", "to": "BNE", "airline": ["CI", "BR"] },
   { "from": "BNE", "to": "AKL", "airline": ["CI"] },
   { "from": "TPE", "to": "MEL", "airline": ["CI"] },
 
   { "from": "TPE", "to": "FRA", "airline": ["CI"] },
   { "from": "TPE", "to": "AMS", "airline": ["CI"] },
   { "from": "TPE", "to": "LHR", "airline": ["CI"] },
-  { "from": "TPE", "to": "VIE", "airline": ["CI"] },
+  { "from": "TPE", "to": "VIE", "airline": ["CI", "BR"] },
   { "from": "TPE", "to": "PRG", "airline": ["CI"] },
   { "from": "TPE", "to": "FCO", "airline": ["CI"] },
 
-  { "from": "KHH", "to": "NRT", "airline": ["CI"] },
-  { "from": "KHH", "to": "KIX", "airline": ["CI"] },
-  { "from": "KHH", "to": "FUK", "airline": ["CI"] },
-  { "from": "KHH", "to": "KMJ", "airline": ["CI"] },
-  { "from": "KHH", "to": "OKJ", "airline": ["CI"] },
-  { "from": "KHH", "to": "ICN", "airline": ["CI"] },
 
-  { "from": "KHH", "to": "BKK", "airline": ["CI"] },
 
-  { "from": "KHH", "to": "SIN", "airline": ["CI"] },
-  { "from": "KHH", "to": "MNL", "airline": ["CI"] },
-  { "from": "KHH", "to": "HNK", "airline": ["CI"] },
-  { "from": "KHH", "to": "PVG", "airline": ["CI"] },
-  { "from": "KHH", "to": "SZX", "airline": ["CI"] },
-  { "from": "KHH", "to": "CKG", "airline": ["CI"] }
-   
 
+  { "from": "TPE", "to": "KTI", "airline": ["BR"] },
+  { "from": "TPE", "to": "CDG", "airline": ["BR"] },
+  { "from": "TPE", "to": "MUC", "airline": ["BR"] },
+  { "from": "TPE", "to": "MXP", "airline": ["BR"] },
+  { "from": "TPE", "to": "AOJ", "airline": ["BR"] },
+  { "from": "TPE", "to": "UKB", "airline": ["BR"] },
+  { "from": "TPE", "to": "MYJ", "airline": ["BR"] },
+  { "from": "TPE", "to": "MFM", "airline": ["BR"] }
 ]
-
-
-
