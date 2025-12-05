@@ -4,42 +4,61 @@
   <meta charset="utf-8">
   <title>Airport Route Map</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-
   <style>
     #map { width: 100%; height: 100vh; }
+    #filter {
+      padding: 10px;
+      background: #fff;
+      z-index: 1000;
+      position: relative;
+      right: -100px; /* 偏移篩選器往右 */
+    }
   </style>
 </head>
 
 <body>
-  <div id="map"></div>
+  <!-- 篩選器面板 -->
+  <div id="filter">
+    <label><input type="checkbox" class="airline-checkbox" value="IT" checked> IT</label>
+    <label><input type="checkbox" class="airline-checkbox" value="CI" checked> CI</label>
+    <label><input type="checkbox" class="airline-checkbox" value="BR" checked> BR</label>
+    <label><input type="checkbox" class="airline-checkbox" value="JX" checked> JX</label>
+    <label><input type="checkbox" class="airline-checkbox" value="GK" checked> GK</label>
+  </div>
 
+  <div id="map"></div>
 
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
   <script src="airlineColors.js"></script>
 
   <script>
-
+    // =============================
     // 1. 初始化地圖
+    // =============================
     var map = L.map('map').setView([23.8, 120.9], 7);
-
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 12
     }).addTo(map);
 
-    // 2. 資料
+    // =============================
+    // 2. 全域變數
+    // =============================
     let airports = {};
     let routes = [];
     let currentLines = [];
 
-    
+    // =============================
+    // 3. 清除目前航線
+    // =============================
     function clearLines() {
       currentLines.forEach(line => map.removeLayer(line));
       currentLines = [];
     }
 
-    // 3. 載入機場
+    // =============================
+    // 4. 載入機場資料
+    // =============================
     fetch("airports.json?v=" + new Date().getTime())
       .then(res => res.json())
       .then(data => {
@@ -47,13 +66,16 @@
         loadRoutesAndMarkers(data);
       });
 
-    // 4. 載入航線 + 設定 marker
+    // =============================
+    // 5. 載入航線資料 + 設定 marker
+    // =============================
     function loadRoutesAndMarkers(airportList) {
       fetch("routes.json?v=" + new Date().getTime())
         .then(res => res.json())
         .then(r => {
           routes = r;
 
+          // 建立機場 marker
           airportList.forEach(airport => {
             if (!airport.lat || !airport.lng) return;
 
@@ -65,68 +87,91 @@
                 ICAO: ${airport.icao}<br>
                 Country: ${airport.country}
               `)
-
-              .on("click", () => {
-                clearLines();
-                let start = airport.iata;
-
-                // 雙向航線
-                let dests = routes.filter(r => r.from === start || r.to === start);
-
-                dests.forEach(rt => {
-                  let fromAirport, toAirport;
-
-                  if (rt.from === start) {
-                    fromAirport = airports[rt.from];
-                    toAirport = airports[rt.to];
-                  } else {
-                    fromAirport = airports[rt.to];
-                    toAirport = airports[rt.from];
-                  }
-
-                  if (!fromAirport || !toAirport) return;
-
-                  // === 每家航空公司畫一條線 ===
-                  rt.airline.forEach((airline, idx) => {
-                    let color = airlineColors[airline] || "#B3B3B3";
-
-                    // 計算原航線向量
-                    let dx = toAirport.lng - fromAirport.lng;
-                    let dy = toAirport.lat - fromAirport.lat;
-                    let length = Math.sqrt(dx * dx + dy * dy);
-                    if (length === 0) return;
-
-                    // 單位垂直向量
-                    let nx = -dy / length;
-                    let ny = dx / length;
-
-                    // 偏移距離
-                    let offset = 0;
-                    if (idx > 0) {
-                      offset = 0.005 * ((idx % 2 === 0 ? 1 : -1) * Math.ceil(idx / 2));
-                    }
-
-                    let fromLatOffset = fromAirport.lat + ny * offset;
-                    let fromLngOffset = fromAirport.lng + nx * offset;
-                    let toLatOffset   = toAirport.lat   + ny * offset;
-                    let toLngOffset   = toAirport.lng   + nx * offset;
-
-                    let line = L.polyline(
-                      [
-                        [fromLatOffset, fromLngOffset],
-                        [toLatOffset, toLngOffset]
-                      ],
-                      { weight: 2, color: color, opacity: 1 }
-                    ).addTo(map);
-
-                    currentLines.push(line);
-                  });
-
-                });
-              });
+              .on("click", () => drawLinesForSelectedAirlines(airport.iata));
           });
         });
     }
+
+    // =============================
+    // 6. 取得已勾選的航空公司
+    // =============================
+    function getSelectedAirlines() {
+      return Array.from(document.querySelectorAll(".airline-checkbox:checked"))
+                  .map(cb => cb.value);
+    }
+
+    // =============================
+    // 7. 畫航線（自動刷新）
+    // =============================
+    function drawLinesForSelectedAirlines(startIATA) {
+      clearLines();
+      let selectedAirlines = getSelectedAirlines();
+
+      // 過濾出起點航線
+      let dests = routes.filter(r => (r.from === startIATA || r.to === startIATA));
+
+      dests.forEach(rt => {
+        let fromAirport, toAirport;
+
+        if (rt.from === startIATA) {
+          fromAirport = airports[rt.from];
+          toAirport = airports[rt.to];
+        } else {
+          fromAirport = airports[rt.to];
+          toAirport = airports[rt.from];
+        }
+
+        if (!fromAirport || !toAirport) return;
+
+        // 每條航線畫線
+        rt.airline.forEach((airline, idx) => {
+          if (!selectedAirlines.includes(airline)) return;
+
+          let color = airlineColors[airline] || "#B3B3B3";
+
+          let dx = toAirport.lng - fromAirport.lng;
+          let dy = toAirport.lat - fromAirport.lat;
+          let length = Math.sqrt(dx*dx + dy*dy);
+          if (length === 0) return;
+
+          let nx = -dy / length;
+          let ny = dx / length;
+
+          let offset = 0.005 * ((idx % 2 === 0 ? 1 : -1) * Math.ceil(idx / 2));
+
+          let fromLatOffset = fromAirport.lat + ny * offset;
+          let fromLngOffset = fromAirport.lng + nx * offset;
+          let toLatOffset   = toAirport.lat   + ny * offset;
+          let toLngOffset   = toAirport.lng   + nx * offset;
+
+          let line = L.polyline(
+            [[fromLatOffset, fromLngOffset], [toLatOffset, toLngOffset]],
+            { weight: 2, color: color, opacity: 1 }
+          ).addTo(map);
+
+          currentLines.push(line);
+        });
+      });
+    }
+
+    // =============================
+    // 8. 篩選器監聽（自動刷新航線）
+    // =============================
+    let debounceTimer;
+    document.querySelectorAll(".airline-checkbox").forEach(cb => {
+      cb.addEventListener("change", () => {
+        clearTimeout(debounceTimer);
+        debounceTimer = setTimeout(() => {
+          // 找到已點擊的 marker，重新畫線
+          let popups = document.querySelectorAll(".leaflet-popup-content b");
+          if(popups.length > 0) {
+            let airportName = popups[0].innerText;
+            let airportIATA = Object.values(airports).find(a => a.name === airportName)?.iata;
+            if(airportIATA) drawLinesForSelectedAirlines(airportIATA);
+          }
+        }, 200); // 200ms 延遲
+      });
+    });
 
   </script>
 </body>
