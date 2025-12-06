@@ -11,3 +11,20 @@ node generate_airports.js
 會輸出一個檔案
 5 缺失的另外加入
 6 貼到繪圖資料夾
+
+{
+  "iata": "FSZ",
+  "icao": "RJNS",
+  "name": "Mt. Fuji Shizuoka Airport",
+  "lat": 34.79611,
+  "lng": 138.18944,
+  "country": "Japan"
+},
+{
+  "name": "Chengdu Tianfu International Airport",
+  "iata": "TFU",
+  "icao": "ZUTF",
+  "lat": 30.5865,
+  "lng": 104.0655,
+  "country": "China"
+}

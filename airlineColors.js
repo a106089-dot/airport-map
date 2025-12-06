@@ -3,8 +3,13 @@
 const airlineColors = {
   "CI": "#5A3E85",
   "BR": "#007A3D",
-  "AE": "#005BAC",
   "IT": "#FF8800",
+  "GK": "#FF6E00",
+  "JQ": "#FF6E00",
+
+
+  "AE": "#005BAC",
+  
   "JX": "#C2A56C",
   "NH": "#0B69C6",
   "JL": "#DA0027",
