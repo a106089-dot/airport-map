@@ -427,13 +427,13 @@
   { "from": "DRW", "to": "DPS", "airline": ["JQ"] },
 
   { "note": "紐西蘭奧克蘭飛"},
-  { "from": "ALK", "to": "CHC", "airline": ["JQ"] },
-  { "from": "ALK", "to": "DUD", "airline": ["JQ"] },
-  { "from": "ALK", "to": "ZQN", "airline": ["JQ"] },
-  { "from": "ALK", "to": "WLG", "airline": ["JQ"] },
+  { "from": "AKL", "to": "CHC", "airline": ["JQ"] },
+  { "from": "AKL", "to": "DUD", "airline": ["JQ"] },
+  { "from": "AKL", "to": "ZQN", "airline": ["JQ"] },
+  { "from": "AKL", "to": "WLG", "airline": ["JQ"] },
   
   { "note": "庫克群島"},
-  { "from": "ALK", "to": "RAR", "airline": ["JQ"] },
+  { "from": "AKL", "to": "RAR", "airline": ["JQ"] },
 
   { "note": "基督城飛"},
   { "from": "CHC", "to": "HLZ", "airline": ["JQ"] },
