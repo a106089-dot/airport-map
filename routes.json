@@ -302,11 +302,151 @@
   { "note": "泰國"},
   { "from": "SYD", "to": "HKT", "airline": ["JQ"] },
 
-  { "note": "越南"},
-  { "from": "SYD", "to": "KLI", "airline": ["JQ"] },
+  { "note": "萬那杜"},
+  { "from": "SYD", "to": "VLI", "airline": ["JQ"] },
 
   { "note": "緬甸"},
-  { "from": "SYD", "to": "SGN", "airline": ["JQ"] }
+  { "from": "SYD", "to": "SGN", "airline": ["JQ"] },
 
+  { "note": "墨爾本飛"},
+  { "from": "MEL", "to": "ADJ", "airline": ["JQ"] },
+  { "from": "MEL", "to": "AYQ", "airline": ["JQ"] },
+  { "from": "MEL", "to": "BNK", "airline": ["JQ"] },
+  { "from": "MEL", "to": "BNE", "airline": ["JQ"] },
+  { "from": "MEL", "to": "BQB", "airline": ["JQ"] },
+  { "from": "MEL", "to": "CNS", "airline": ["JQ"] },
+  { "from": "MEL", "to": "CBR", "airline": ["JQ"] },
+  { "from": "MEL", "to": "DRW", "airline": ["JQ"] },
+  { "from": "MEL", "to": "OOL", "airline": ["JQ"] },
+  { "from": "MEL", "to": "HVB", "airline": ["JQ"] },
+  { "from": "MEL", "to": "HBA", "airline": ["JQ"] },
+  { "from": "MEL", "to": "LST", "airline": ["JQ"] },
+  { "from": "MEL", "to": "NTL", "airline": ["JQ"] },
+  { "from": "MEL", "to": "PER", "airline": ["JQ"] },
+  { "from": "MEL", "to": "PPP", "airline": ["JQ"] },
+  { "from": "MEL", "to": "MCY", "airline": ["JQ"] },
+  { "from": "MEL", "to": "TSV", "airline": ["JQ"] },
+
+  { "note": "斐濟"},
+  { "from": "MEL", "to": "NAN", "airline": ["JQ"] },
+
+  { "note": "印尼"},
+  { "from": "MEL", "to": "DPS", "airline": ["JQ"] },
+
+  { "note": "紐西蘭"},
+  { "from": "MEL", "to": "AKL", "airline": ["JQ"] },
+  { "from": "MEL", "to": "CHC", "airline": ["JQ"] },
+  { "from": "MEL", "to": "ZQN", "airline": ["JQ"] },
+
+  { "note": "新加坡"},
+  { "from": "MEL", "to": "SIN", "airline": ["JQ"] },
+
+  { "note": "泰國"},
+  { "from": "MEL", "to": "BKK", "airline": ["JQ"] },
+  { "from": "MEL", "to": "HKT", "airline": ["JQ"] },
+
+  { "note": "越南"},
+  { "from": "MEL", "to": "SGN", "airline": ["JQ"] },
+
+  { "note": "凱恩斯飛"},
+  { "from": "CNS", "to": "ADL", "airline": ["JQ"] },
+  { "from": "CNS", "to": "OOL", "airline": ["JQ"] },
+  { "from": "CNS", "to": "PER", "airline": ["JQ"] },
+  { "from": "CNS", "to": "MCY", "airline": ["JQ"] },
+
+  { "note": "印尼"},
+  { "from": "CNS", "to": "DPS", "airline": ["JQ"] },
+
+  { "note": "日本"},
+  { "from": "CNS", "to": "KIX", "airline": ["JQ"] },
+  { "from": "CNS", "to": "NRT", "airline": ["JQ"] },
+
+  { "note": "紐西蘭"},
+  { "from": "CNS", "to": "CHC", "airline": ["JQ"] },
+
+  { "note": "黃金海岸飛"},
+  { "from": "OOL", "to": "ADL", "airline": ["JQ"] },
+  { "from": "OOL", "to": "CBR", "airline": ["JQ"] },
+
+  { "from": "OOL", "to": "HBA", "airline": ["JQ"] },
+  { "from": "OOL", "to": "AVV", "airline": ["JQ"] },
+  { "from": "OOL", "to": "NTL", "airline": ["JQ"] },
+  { "from": "OOL", "to": "PER", "airline": ["JQ"] },
+
+  { "note": "印尼"},
+  { "from": "OOL", "to": "DPS", "airline": ["JQ"] },
+
+  { "note": "紐西蘭"},
+  { "from": "OOL", "to": "AKL", "airline": ["JQ"] },
+  { "from": "OOL", "to": "HLZ", "airline": ["JQ"] },
+  { "from": "OOL", "to": "ZQN", "airline": ["JQ"] },
+  { "from": "OOL", "to": "CHC", "airline": ["JQ"] },
+  { "from": "OOL", "to": "DUD", "airline": ["JQ"] },
+  { "from": "OOL", "to": "ZQN", "airline": ["JQ"] },
+  { "from": "OOL", "to": "WLG", "airline": ["JQ"] },
+
+  { "note": "陽光海岸飛"},
+  { "from": "MCY", "to": "ADL", "airline": ["JQ"] },
+
+  { "note": "紐西蘭"},
+  { "from": "MCY", "to": "AKL", "airline": ["JQ"] },
+
+  { "note": "阿德雷德飛"},
+  { "from": "ADL", "to": "DRW", "airline": ["JQ"] },
+  { "from": "ADL", "to": "HBA", "airline": ["JQ"] },
+  { "from": "ADL", "to": "PER", "airline": ["JQ"] },
+  { "from": "ADL", "to": "PPP", "airline": ["JQ"] },
+
+  { "note": "印尼"},
+  { "from": "ADL", "to": "DPS", "airline": ["JQ"] },
+
+  { "note": "珀斯飛"},
+
+  { "note": "印尼"},
+  { "from": "PER", "to": "DPS", "airline": ["JQ"] },
+
+  { "note": "菲律賓"},
+  { "from": "PER", "to": "MNL", "airline": ["JQ"] },
+
+  { "note": "新加坡"},
+  { "from": "PER", "to": "SIN", "airline": ["JQ"] },
+
+  { "note": "泰國"},
+  { "from": "PER", "to": "BKK", "airline": ["JQ"] },
+  { "from": "PER", "to": "HKT", "airline": ["JQ"] },
+
+  { "note": "NEW CASTLE飛"},
+  { "from": "NTL", "to": "HBA", "airline": ["JQ"] },
+
+  { "note": "印尼"},
+  { "from": "NTL", "to": "DPS", "airline": ["JQ"] },
+
+  { "note": "達爾文飛"},
+
+  { "note": "印尼"},
+  { "from": "DRW", "to": "DPS", "airline": ["JQ"] },
+
+  { "note": "紐西蘭奧克蘭飛"},
+  { "from": "ALK", "to": "CHC", "airline": ["JQ"] },
+  { "from": "ALK", "to": "DUD", "airline": ["JQ"] },
+  { "from": "ALK", "to": "ZQN", "airline": ["JQ"] },
+  { "from": "ALK", "to": "WLG", "airline": ["JQ"] },
+  
+  { "note": "庫克群島"},
+  { "from": "ALK", "to": "RAR", "airline": ["JQ"] },
+
+  { "note": "基督城飛"},
+  { "from": "CHC", "to": "HLZ", "airline": ["JQ"] },
+  { "from": "CHC", "to": "WLG", "airline": ["JQ"] },
+
+  { "note": "威靈頓飛"},
+  { "from": "WLG", "to": "ZQN", "airline": ["JQ"] },
+
+  { "from": "WLG", "to": "", "airline": ["JQ"] },
+  { "from": "WLG", "to": "", "airline": ["JQ"] },
+  { "from": "WLG", "to": "", "airline": ["JQ"] },
+  { "from": "WLG", "to": "", "airline": ["JQ"] }
+  
+  
 
 ]

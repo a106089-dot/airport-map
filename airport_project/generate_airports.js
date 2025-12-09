@@ -2,9 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 // 你要生成的機場 IATA 名單
-const wanted = new Set([
-"ADJ","ADL","AKJ","AKL","AMS","AOJ","AVV","AXT","AYQ","BKK","BNK","BNE","BQB","CBR","CEB","CKG","CNX","CNS","CRK","CTS","DAD","DFW","DRW","DPS","FCO","FKS","FRA","FUK","FSZ","GMP","HBA","HKT","HKD","HKG","HND","HNA","HGH","HIJ","HLZ","HVB","IAH","ICN","JFK","KCZ","KHH","KIJ","KLI","KMI","KMJ","KMQ","KIX","KTI","KOJ","KUL","LAX","LST","LHR","MCY","MEL","MKY","MFM","MNL","MUC","MXP","MYJ","NAN","NRT","NTL","OIT","OKA","OKJ","ONT","OOL","PEN","PER","PHX","PRG","PQC","PVG","PPP","PUS","RAR","RGN","SDJ","SFO","SHA","SGN","SZX","SEA","SIN","SYD","TAK","TFU","TOY","TNN","TPE","TSV","TSA","UKB","VIE","XMN","YGJ","YVR","YYZ","ZQN"
-]);
+const wanted = new Set(['ADJ', 'ADL', 'AKJ', 'AKL', 'ALK', 'AMS', 'AOJ', 'AVV', 'AXT', 'AYQ', 'BKK', 'BNE', 'BNK', 'BQB', 'CAN', 'CBR', 'CDG', 'CEB', 'CGK', 'CHC', 'CJU', 'CKG', 'CNS', 'CNX', 'CRK', 'CTS', 'DAD', 'DFW', 'DPS', 'DRW', 'DUD', 'FCO', 'FKS', 'FRA', 'FSZ', 'FUK', 'GMP', 'HAN', 'HBA', 'HGH', 'HIJ', 'HKD', 'HKG', 'HKT', 'HLZ', 'HNA', 'HND', 'HSG', 'HVB', 'IAH', 'ICN', 'ISG', 'JFK', 'KCZ', 'KHH', 'KIJ', 'KIX', 'KMI', 'KMJ', 'KMQ', 'KOJ', 'KTI', 'KUL', 'LAX', 'LHR', 'LST', 'MCY', 'MEL', 'MFM', 'MKY', 'MNL', 'MUC', 'MXP', 'MYJ', 'NAN', 'NGO', 'NRT', 'NTL', 'OIT', 'OKA', 'OKJ', 'ONT', 'OOL', 'ORD', 'PEK', 'PEN', 'PER', 'PHX', 'PPP', 'PQC', 'PRG', 'PUS', 'PVG', 'RAR', 'RGN', 'RMQ', 'ROR', 'SDJ', 'SEA', 'SFO', 'SGN', 'SHA', 'SIN', 'SYD', 'SZX', 'TAK', 'TFU', 'TNN', 'TOY', 'TPE', 'TSA', 'TSV', 'UKB', 'VIE', 'VLI', 'WLG', 'XMN', 'YGJ', 'YVR', 'YYZ', 'ZQN']);
 
 // 讀 airports.dat
 const data = fs.readFileSync(path.join(__dirname, 'airports.dat'), 'utf8');
