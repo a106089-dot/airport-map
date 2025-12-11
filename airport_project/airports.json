@@ -48,12 +48,12 @@
     "country": "Netherlands"
   },
   {
-    "name": "Charles de Gaulle International Airport",
-    "iata": "CDG",
-    "icao": "LFPG",
-    "lat": 49.012798,
-    "lng": 2.55,
-    "country": "France"
+    "name": "Kotakoli Airport",
+    "iata": "KLI",
+    "icao": "FZFP",
+    "lat": 4.157639980316162,
+    "lng": 21.65089988708496,
+    "country": "Congo (Kinshasa)"
   },
   {
     "name": "Malpensa International Airport",
@@ -104,35 +104,11 @@
     "country": "Fiji"
   },
   {
-    "name": "Bauerfield International Airport",
-    "iata": "VLI",
-    "icao": "NVVV",
-    "lat": -17.699300765991,
-    "lng": 168.32000732422,
-    "country": "Vanuatu"
-  },
-  {
     "name": "Auckland International Airport",
     "iata": "AKL",
     "icao": "NZAA",
     "lat": -37.008098602299995,
     "lng": 174.792007446,
-    "country": "New Zealand"
-  },
-  {
-    "name": "Christchurch International Airport",
-    "iata": "CHC",
-    "icao": "NZCH",
-    "lat": -43.48939895629883,
-    "lng": 172.53199768066406,
-    "country": "New Zealand"
-  },
-  {
-    "name": "Dunedin Airport",
-    "iata": "DUD",
-    "icao": "NZDN",
-    "lat": -45.9281005859375,
-    "lng": 170.197998046875,
     "country": "New Zealand"
   },
   {
@@ -152,14 +128,6 @@
     "country": "New Zealand"
   },
   {
-    "name": "Wellington International Airport",
-    "iata": "WLG",
-    "icao": "NZWN",
-    "lat": -41.3272018433,
-    "lng": 174.804992676,
-    "country": "New Zealand"
-  },
-  {
     "name": "Amman-Marka International Airport",
     "iata": "ADJ",
     "icao": "OJAM",
@@ -168,27 +136,11 @@
     "country": "Jordan"
   },
   {
-    "name": "Babelthuap Airport",
-    "iata": "ROR",
-    "icao": "PTRO",
-    "lat": 7.36731,
-    "lng": 134.544236,
-    "country": "Palau"
-  },
-  {
     "name": "Kaohsiung International Airport",
     "iata": "KHH",
     "icao": "RCKH",
     "lat": 22.57710075378418,
     "lng": 120.3499984741211,
-    "country": "Taiwan"
-  },
-  {
-    "name": "Taichung Ching Chuang Kang Airport",
-    "iata": "RMQ",
-    "icao": "RCMQ",
-    "lat": 24.264699935913086,
-    "lng": 120.62100219726562,
     "country": "Taiwan"
   },
   {
@@ -392,14 +344,6 @@
     "country": "Japan"
   },
   {
-    "name": "Jeju International Airport",
-    "iata": "CJU",
-    "icao": "RKPC",
-    "lat": 33.51129913330078,
-    "lng": 126.49299621582031,
-    "country": "South Korea"
-  },
-  {
     "name": "Gimhae International Airport",
     "iata": "PUS",
     "icao": "RKPK",
@@ -421,14 +365,6 @@
     "icao": "ROAH",
     "lat": 26.1958007812,
     "lng": 127.646003723,
-    "country": "Japan"
-  },
-  {
-    "name": "New Ishigaki Airport",
-    "iata": "ISG",
-    "icao": "ROIG",
-    "lat": 24.396389,
-    "lng": 124.245,
     "country": "Japan"
   },
   {
@@ -472,14 +408,6 @@
     "country": "Vietnam"
   },
   {
-    "name": "Noi Bai International Airport",
-    "iata": "HAN",
-    "icao": "VVNB",
-    "lat": 21.221200942993164,
-    "lng": 105.80699920654297,
-    "country": "Vietnam"
-  },
-  {
     "name": "Phu Quoc International Airport",
     "iata": "PQC",
     "icao": "VVPQ",
@@ -502,14 +430,6 @@
     "lat": 16.907300949099998,
     "lng": 96.1332015991,
     "country": "Burma"
-  },
-  {
-    "name": "Soekarno-Hatta International Airport",
-    "iata": "CGK",
-    "icao": "WIII",
-    "lat": -6.1255698204,
-    "lng": 106.65599823,
-    "country": "Indonesia"
   },
   {
     "name": "Kuala Lumpur International Airport",
@@ -656,22 +576,6 @@
     "country": "Australia"
   },
   {
-    "name": "Beijing Capital International Airport",
-    "iata": "PEK",
-    "icao": "ZBAA",
-    "lat": 40.080101013183594,
-    "lng": 116.58499908447266,
-    "country": "China"
-  },
-  {
-    "name": "Guangzhou Baiyun International Airport",
-    "iata": "CAN",
-    "icao": "ZGGG",
-    "lat": 23.39240074157715,
-    "lng": 113.29900360107422,
-    "country": "China"
-  },
-  {
     "name": "Shenzhen Bao'an International Airport",
     "iata": "SZX",
     "icao": "ZGSZ",
@@ -784,14 +688,6 @@
     "country": "United States"
   },
   {
-    "name": "Chicago O'Hare International Airport",
-    "iata": "ORD",
-    "icao": "KORD",
-    "lat": 41.9786,
-    "lng": -87.9048,
-    "country": "United States"
-  },
-  {
     "name": "Suvarnabhumi Airport",
     "iata": "BKK",
     "icao": "VTBS",
@@ -822,14 +718,6 @@
     "lat": -8.7481698989868,
     "lng": 115.16699981689,
     "country": "Indonesia"
-  },
-  {
-    "name": "Chubu Centrair International Airport",
-    "iata": "NGO",
-    "icao": "RJGG",
-    "lat": 34.8583984375,
-    "lng": 136.80499267578125,
-    "country": "Japan"
   },
   {
     "name": "Kobe Airport",
@@ -909,14 +797,6 @@
     "icao": "RJSN",
     "lat": 37.9558982849,
     "lng": 139.121002197,
-    "country": "Japan"
-  },
-  {
-    "name": "Saga Airport",
-    "iata": "HSG",
-    "icao": "RJFS",
-    "lat": 33.149700164799995,
-    "lng": 130.302001953,
     "country": "Japan"
   },
   {

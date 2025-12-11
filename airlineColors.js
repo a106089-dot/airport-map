@@ -5,7 +5,9 @@ const airlineColors = {
   "BR": "#007A3D",
   "IT": "#FF8800",
   "GK": "#FF6E00",
+  "QF": "#E0001B",
   "JQ": "#FF6E00",
+
 
 
   "AE": "#005BAC",
