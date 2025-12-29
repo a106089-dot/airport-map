@@ -7,6 +7,7 @@ const airlineColors = {
   "GK": "#FF6E00",
   "QF": "#E0001B",
   "JQ": "#FF6E00",
+  "VA": "#E31837",    // Virgin Australia
 
 
 
