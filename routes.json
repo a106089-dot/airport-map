@@ -663,6 +663,29 @@
 
   { "note": "聖誕島飛cocos"},
   { "from": "XCH", "to": "CCK", "airline": ["QF"] },
+
+  { "note": "巴瑟頓飛"},
+  { "from": "BQB", "to": "BYP", "airline": ["VA"] },
+  { "from": "BQB", "to": "OCM", "airline": ["VA"] },
+  { "from": "BQB", "to": "GET", "airline": ["VA"] },
+  { "from": "BQB", "to": "CNJ", "airline": ["VA"] },
+  { "from": "BQB", "to": "ODD", "airline": ["VA"] },
+  { "from": "BQB", "to": "WLP", "airline": ["VA"] },
+
+  { "note": "傑拉爾頓飛"},
+  { "from": "GET", "to": "ALH", "airline": ["VA"] },
+  { "from": "GET", "to": "OCM", "airline": ["VA"] },
+
+  { "note": "布蘭吉達飛"},
+  { "from": "OCM", "to": "ALH", "airline": ["VA"] },
+  { "from": "OCM", "to": "WLP", "airline": ["VA"] },
+
+  { "note": "西角飛"},
+  { "from": "WLP", "to": "BME", "airline": ["VA"] },
+  { "from": "WLP", "to": "OOD", "airline": ["VA"] },
+
+  { "note": "布魯姆飛"},
+  { "from": "BME", "to": "WLP", "airline": ["VA"] },
   
   { "note": "紐西蘭奧克蘭飛"},
   { "from": "AKL", "to": "CHC", "airline": ["JQ"] },
