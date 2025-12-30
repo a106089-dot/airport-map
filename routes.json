@@ -338,8 +338,8 @@
   { "from": "SYD", "to": "MEL", "airline": ["QF", "JQ", "VA"] },
   { "from": "SYD", "to": "MIM", "airline": ["QF"] },
   { "from": "SYD", "to": "MQL", "airline": ["QF"] },
-  { "from": "SYD", "to": "MRA", "airline": ["QF"] },
-  { "from": "SYD", "to": "MLK", "airline": ["QF"] },
+  { "from": "SYD", "to": "MRZ", "airline": ["QF"] },
+  { "from": "SYD", "to": "NLK", "airline": ["QF"] },
   { "from": "SYD", "to": "OAG", "airline": ["QF"] },
   { "from": "SYD", "to": "AVV", "airline": ["JQ"] },
   { "from": "SYD", "to": "PER", "airline": ["QF", "JQ", "VA"] },
@@ -681,7 +681,6 @@
   { "from": "OCM", "to": "WLP", "airline": ["VA"] },
 
   { "note": "西角飛"},
-  { "from": "WLP", "to": "BME", "airline": ["VA"] },
   { "from": "WLP", "to": "OOD", "airline": ["VA"] },
 
   { "note": "布魯姆飛"},

@@ -1,243 +1,19 @@
 [
   {
-    "name": "Vancouver International Airport",
-    "iata": "YVR",
-    "icao": "CYVR",
-    "lat": 49.193901062,
-    "lng": -123.183998108,
-    "country": "Canada"
+    "name": "Albury Airport",
+    "iata": "ABX",
+    "icao": "YMAY",
+    "lat": -36.06779861450195,
+    "lng": 146.95799255371094,
+    "country": "Australia"
   },
   {
-    "name": "Lester B. Pearson International Airport",
-    "iata": "YYZ",
-    "icao": "CYYZ",
-    "lat": 43.6772003174,
-    "lng": -79.63059997559999,
-    "country": "Canada"
-  },
-  {
-    "name": "Frankfurt am Main Airport",
-    "iata": "FRA",
-    "icao": "EDDF",
-    "lat": 50.033333,
-    "lng": 8.570556,
-    "country": "Germany"
-  },
-  {
-    "name": "Munich Airport",
-    "iata": "MUC",
-    "icao": "EDDM",
-    "lat": 48.353802,
-    "lng": 11.7861,
-    "country": "Germany"
-  },
-  {
-    "name": "London Heathrow Airport",
-    "iata": "LHR",
-    "icao": "EGLL",
-    "lat": 51.4706,
-    "lng": -0.461941,
-    "country": "United Kingdom"
-  },
-  {
-    "name": "Amsterdam Airport Schiphol",
-    "iata": "AMS",
-    "icao": "EHAM",
-    "lat": 52.308601,
-    "lng": 4.76389,
-    "country": "Netherlands"
-  },
-  {
-    "name": "Charles de Gaulle International Airport",
-    "iata": "CDG",
-    "icao": "LFPG",
-    "lat": 49.012798,
-    "lng": 2.55,
-    "country": "France"
-  },
-  {
-    "name": "Malpensa International Airport",
-    "iata": "MXP",
-    "icao": "LIMC",
-    "lat": 45.6306,
-    "lng": 8.72811,
-    "country": "Italy"
-  },
-  {
-    "name": "Leonardo da Vinci–Fiumicino Airport",
-    "iata": "FCO",
-    "icao": "LIRF",
-    "lat": 41.8002778,
-    "lng": 12.2388889,
-    "country": "Italy"
-  },
-  {
-    "name": "Václav Havel Airport Prague",
-    "iata": "PRG",
-    "icao": "LKPR",
-    "lat": 50.1008,
-    "lng": 14.26,
-    "country": "Czech Republic"
-  },
-  {
-    "name": "Vienna International Airport",
-    "iata": "VIE",
-    "icao": "LOWW",
-    "lat": 48.110298156738,
-    "lng": 16.569700241089,
-    "country": "Austria"
-  },
-  {
-    "name": "Rarotonga International Airport",
-    "iata": "RAR",
-    "icao": "NCRG",
-    "lat": -21.2026996613,
-    "lng": -159.805999756,
-    "country": "Cook Islands"
-  },
-  {
-    "name": "Nadi International Airport",
-    "iata": "NAN",
-    "icao": "NFFN",
-    "lat": -17.755399703979492,
-    "lng": 177.4429931640625,
-    "country": "Fiji"
-  },
-  {
-    "name": "Bauerfield International Airport",
-    "iata": "VLI",
-    "icao": "NVVV",
-    "lat": -17.699300765991,
-    "lng": 168.32000732422,
-    "country": "Vanuatu"
-  },
-  {
-    "name": "Auckland International Airport",
-    "iata": "AKL",
-    "icao": "NZAA",
-    "lat": -37.008098602299995,
-    "lng": 174.792007446,
-    "country": "New Zealand"
-  },
-  {
-    "name": "Christchurch International Airport",
-    "iata": "CHC",
-    "icao": "NZCH",
-    "lat": -43.48939895629883,
-    "lng": 172.53199768066406,
-    "country": "New Zealand"
-  },
-  {
-    "name": "Dunedin Airport",
-    "iata": "DUD",
-    "icao": "NZDN",
-    "lat": -45.9281005859375,
-    "lng": 170.197998046875,
-    "country": "New Zealand"
-  },
-  {
-    "name": "Hamilton International Airport",
-    "iata": "HLZ",
-    "icao": "NZHN",
-    "lat": -37.8666992188,
-    "lng": 175.332000732,
-    "country": "New Zealand"
-  },
-  {
-    "name": "Queenstown International Airport",
-    "iata": "ZQN",
-    "icao": "NZQN",
-    "lat": -45.0210990906,
-    "lng": 168.738998413,
-    "country": "New Zealand"
-  },
-  {
-    "name": "Wellington International Airport",
-    "iata": "WLG",
-    "icao": "NZWN",
-    "lat": -41.3272018433,
-    "lng": 174.804992676,
-    "country": "New Zealand"
-  },
-  {
-    "name": "Amman-Marka International Airport",
-    "iata": "ADJ",
-    "icao": "OJAM",
-    "lat": 31.972700119018555,
-    "lng": 35.991600036621094,
-    "country": "Jordan"
-  },
-  {
-    "name": "Babelthuap Airport",
-    "iata": "ROR",
-    "icao": "PTRO",
-    "lat": 7.36731,
-    "lng": 134.544236,
-    "country": "Palau"
-  },
-  {
-    "name": "Kaohsiung International Airport",
-    "iata": "KHH",
-    "icao": "RCKH",
-    "lat": 22.57710075378418,
-    "lng": 120.3499984741211,
-    "country": "Taiwan"
-  },
-  {
-    "name": "Taichung Ching Chuang Kang Airport",
-    "iata": "RMQ",
-    "icao": "RCMQ",
-    "lat": 24.264699935913086,
-    "lng": 120.62100219726562,
-    "country": "Taiwan"
-  },
-  {
-    "name": "Tainan Airport",
-    "iata": "TNN",
-    "icao": "RCNN",
-    "lat": 22.95039939880371,
-    "lng": 120.20600128173828,
-    "country": "Taiwan"
-  },
-  {
-    "name": "Taipei Songshan Airport",
-    "iata": "TSA",
-    "icao": "RCSS",
-    "lat": 25.069400787353516,
-    "lng": 121.552001953125,
-    "country": "Taiwan"
-  },
-  {
-    "name": "Taiwan Taoyuan International Airport",
-    "iata": "TPE",
-    "icao": "RCTP",
-    "lat": 25.0777,
-    "lng": 121.233002,
-    "country": "Taiwan"
-  },
-  {
-    "name": "Narita International Airport",
-    "iata": "NRT",
-    "icao": "RJAA",
-    "lat": 35.7647018433,
-    "lng": 140.386001587,
-    "country": "Japan"
-  },
-  {
-    "name": "New Chitose Airport",
-    "iata": "CTS",
-    "icao": "RJCC",
-    "lat": 42.77519989013672,
-    "lng": 141.69200134277344,
-    "country": "Japan"
-  },
-  {
-    "name": "Hakodate Airport",
-    "iata": "HKD",
-    "icao": "RJCH",
-    "lat": 41.7700004578,
-    "lng": 140.822006226,
-    "country": "Japan"
+    "name": "Adelaide International Airport",
+    "iata": "ADL",
+    "icao": "YPAD",
+    "lat": -34.945,
+    "lng": 138.531006,
+    "country": "Australia"
   },
   {
     "name": "Asahikawa Airport",
@@ -248,6 +24,430 @@
     "country": "Japan"
   },
   {
+    "name": "Auckland International Airport",
+    "iata": "AKL",
+    "icao": "NZAA",
+    "lat": -37.008098602299995,
+    "lng": 174.792007446,
+    "country": "New Zealand"
+  },
+  {
+    "name": "Albany Airport",
+    "iata": "ALH",
+    "icao": "YABA",
+    "lat": -34.94329833984375,
+    "lng": 117.80899810791016,
+    "country": "Australia"
+  },
+  {
+    "name": "Amsterdam Airport Schiphol",
+    "iata": "AMS",
+    "icao": "EHAM",
+    "lat": 52.308601,
+    "lng": 4.76389,
+    "country": "Netherlands"
+  },
+  {
+    "name": "Aomori Airport",
+    "iata": "AOJ",
+    "icao": "RJSA",
+    "lat": 40.73469924926758,
+    "lng": 140.6909942626953,
+    "country": "Japan"
+  },
+  {
+    "name": "Faleolo International Airport",
+    "iata": "APW",
+    "icao": "NSFA",
+    "lat": -13.829999923706055,
+    "lng": -172.00799560546875,
+    "country": "Samoa"
+  },
+  {
+    "name": "Armidale Airport",
+    "iata": "ARM",
+    "icao": "YARM",
+    "lat": -30.528099060099997,
+    "lng": 151.617004395,
+    "country": "Australia"
+  },
+  {
+    "name": "Alice Springs Airport",
+    "iata": "ASP",
+    "icao": "YBAS",
+    "lat": -23.806699752807617,
+    "lng": 133.90199279785156,
+    "country": "Australia"
+  },
+  {
+    "name": "Avalon Airport",
+    "iata": "AVV",
+    "icao": "YMAV",
+    "lat": -38.039398,
+    "lng": 144.468994,
+    "country": "Australia"
+  },
+  {
+    "name": "Akita Airport",
+    "iata": "AXT",
+    "icao": "RJSK",
+    "lat": 39.6156005859375,
+    "lng": 140.218994140625,
+    "country": "Japan"
+  },
+  {
+    "name": "Ayers Rock Connellan Airport",
+    "iata": "AYQ",
+    "icao": "YAYE",
+    "lat": -25.1861,
+    "lng": 130.975998,
+    "country": "Australia"
+  },
+  {
+    "name": "Barcaldine Airport",
+    "iata": "BCI",
+    "icao": "YBAR",
+    "lat": -23.5652999878,
+    "lng": 145.307006836,
+    "country": "Australia"
+  },
+  {
+    "name": "Bundaberg Airport",
+    "iata": "BDB",
+    "icao": "YBUD",
+    "lat": -24.903900146499996,
+    "lng": 152.319000244,
+    "country": "Australia"
+  },
+  {
+    "name": "Broken Hill Airport",
+    "iata": "BHQ",
+    "icao": "YBHI",
+    "lat": -32.0013999939,
+    "lng": 141.472000122,
+    "country": "Australia"
+  },
+  {
+    "name": "Suvarnabhumi Airport",
+    "iata": "BKK",
+    "icao": "VTBS",
+    "lat": 13.681099891662598,
+    "lng": 100.74700164794922,
+    "country": "Thailand"
+  },
+  {
+    "name": "Blackall Airport",
+    "iata": "BKQ",
+    "icao": "YBCK",
+    "lat": -24.427799224900003,
+    "lng": 145.429000854,
+    "country": "Australia"
+  },
+  {
+    "name": "Kempegowda International Airport",
+    "iata": "BLR",
+    "icao": "VOBL",
+    "lat": 13.1979,
+    "lng": 77.706299,
+    "country": "India"
+  },
+  {
+    "name": "Broome International Airport",
+    "iata": "BME",
+    "icao": "YBRM",
+    "lat": -17.944700241088867,
+    "lng": 122.23200225830078,
+    "country": "Australia"
+  },
+  {
+    "name": "Brisbane International Airport",
+    "iata": "BNE",
+    "icao": "YBBN",
+    "lat": -27.384199142456055,
+    "lng": 153.11700439453125,
+    "country": "Australia"
+  },
+  {
+    "name": "Ballina Byron Gateway Airport",
+    "iata": "BNK",
+    "icao": "YBNA",
+    "lat": -28.8339004517,
+    "lng": 153.56199646,
+    "country": "Australia"
+  },
+  {
+    "name": "Busselton Regional Airport",
+    "iata": "BQB",
+    "icao": "YBLN",
+    "lat": -33.6884231567,
+    "lng": 115.401596069,
+    "country": "Australia"
+  },
+  {
+    "name": "Wynyard Airport",
+    "iata": "BWT",
+    "icao": "YWYY",
+    "lat": -40.9989013671875,
+    "lng": 145.7310028076172,
+    "country": "Australia"
+  },
+  {
+    "name": "Bendigo Airport",
+    "iata": "BXG",
+    "icao": "YBDG",
+    "lat": -36.7393989563,
+    "lng": 144.330001831,
+    "country": "Australia"
+  },
+  {
+    "name": "Barimunya Airport",
+    "iata": "BYP",
+    "icao": "YBRY",
+    "lat": -22.673900604248,
+    "lng": 119.16600036621,
+    "country": "Australia"
+  },
+  {
+    "name": "Guangzhou Baiyun International Airport",
+    "iata": "CAN",
+    "icao": "ZGGG",
+    "lat": 23.39240074157715,
+    "lng": 113.29900360107422,
+    "country": "China"
+  },
+  {
+    "name": "Canberra International Airport",
+    "iata": "CBR",
+    "icao": "YSCB",
+    "lat": -35.30690002441406,
+    "lng": 149.19500732421875,
+    "country": "Australia"
+  },
+  {
+    "name": "Cocos (Keeling) Islands Airport",
+    "iata": "CCK",
+    "icao": "YPCC",
+    "lat": -12.1883001328,
+    "lng": 96.8339004517,
+    "country": "Cocos (Keeling) Islands"
+  },
+  {
+    "name": "Charles de Gaulle International Airport",
+    "iata": "CDG",
+    "icao": "LFPG",
+    "lat": 49.012798,
+    "lng": 2.55,
+    "country": "France"
+  },
+  {
+    "name": "Mactan Cebu International Airport",
+    "iata": "CEB",
+    "icao": "RPVM",
+    "lat": 10.307499885559,
+    "lng": 123.97899627686,
+    "country": "Philippines"
+  },
+  {
+    "name": "Coffs Harbour Airport",
+    "iata": "CFS",
+    "icao": "YSCH",
+    "lat": -30.3206005096,
+    "lng": 153.115997314,
+    "country": "Australia"
+  },
+  {
+    "name": "Soekarno-Hatta International Airport",
+    "iata": "CGK",
+    "icao": "WIII",
+    "lat": -6.1255698204,
+    "lng": 106.65599823,
+    "country": "Indonesia"
+  },
+  {
+    "name": "Christchurch International Airport",
+    "iata": "CHC",
+    "icao": "NZCH",
+    "lat": -43.48939895629883,
+    "lng": 172.53199768066406,
+    "country": "New Zealand"
+  },
+  {
+    "name": "Coondewanna Airport",
+    "iata": "CJF",
+    "icao": "YCWA",
+    "lat": -22.96669960022,
+    "lng": 118.81300354004,
+    "country": "Australia"
+  },
+  {
+    "name": "Jeju International Airport",
+    "iata": "CJU",
+    "icao": "RKPC",
+    "lat": 33.51129913330078,
+    "lng": 126.49299621582031,
+    "country": "South Korea"
+  },
+  {
+    "name": "Chongqing Jiangbei International Airport",
+    "iata": "CKG",
+    "icao": "ZUCK",
+    "lat": 29.719200134277344,
+    "lng": 106.64199829101562,
+    "country": "China"
+  },
+  {
+    "name": "Cloncurry Airport",
+    "iata": "CNJ",
+    "icao": "YCCY",
+    "lat": -20.668600082399998,
+    "lng": 140.503997803,
+    "country": "Australia"
+  },
+  {
+    "name": "Cairns International Airport",
+    "iata": "CNS",
+    "icao": "YBCS",
+    "lat": -16.885799408,
+    "lng": 145.755004883,
+    "country": "Australia"
+  },
+  {
+    "name": "Chiang Mai International Airport",
+    "iata": "CNX",
+    "icao": "VTCC",
+    "lat": 18.766799926799997,
+    "lng": 98.962600708,
+    "country": "Thailand"
+  },
+  {
+    "name": "Diosdado Macapagal International Airport",
+    "iata": "CRK",
+    "icao": "RPLC",
+    "lat": 15.186,
+    "lng": 120.559998,
+    "country": "Philippines"
+  },
+  {
+    "name": "New Chitose Airport",
+    "iata": "CTS",
+    "icao": "RJCC",
+    "lat": 42.77519989013672,
+    "lng": 141.69200134277344,
+    "country": "Japan"
+  },
+  {
+    "name": "Da Nang International Airport",
+    "iata": "DAD",
+    "icao": "VVDN",
+    "lat": 16.043899536132812,
+    "lng": 108.1989974975586,
+    "country": "Vietnam"
+  },
+  {
+    "name": "Dubbo City Regional Airport",
+    "iata": "DBO",
+    "icao": "YSDU",
+    "lat": -32.2167015076,
+    "lng": 148.574996948,
+    "country": "Australia"
+  },
+  {
+    "name": "Indira Gandhi International Airport",
+    "iata": "DEL",
+    "icao": "VIDP",
+    "lat": 28.5665,
+    "lng": 77.103104,
+    "country": "India"
+  },
+  {
+    "name": "Dallas Fort Worth International Airport",
+    "iata": "DFW",
+    "icao": "KDFW",
+    "lat": 32.896801,
+    "lng": -97.038002,
+    "country": "United States"
+  },
+  {
+    "name": "Presidente Nicolau Lobato International Airport",
+    "iata": "DIL",
+    "icao": "WPDL",
+    "lat": -8.54640007019,
+    "lng": 125.526000977,
+    "country": "East Timor"
+  },
+  {
+    "name": "Hamad International Airport",
+    "iata": "DOH",
+    "icao": "OTHH",
+    "lat": 25.273056,
+    "lng": 51.608056,
+    "country": "Qatar"
+  },
+  {
+    "name": "Devonport Airport",
+    "iata": "DPO",
+    "icao": "YDPO",
+    "lat": -41.1697006226,
+    "lng": 146.429992676,
+    "country": "Australia"
+  },
+  {
+    "name": "Ngurah Rai (Bali) International Airport",
+    "iata": "DPS",
+    "icao": "WADD",
+    "lat": -8.7481698989868,
+    "lng": 115.16699981689,
+    "country": "Indonesia"
+  },
+  {
+    "name": "Darwin International Airport",
+    "iata": "DRW",
+    "icao": "YPDN",
+    "lat": -12.41469955444336,
+    "lng": 130.8769989013672,
+    "country": "Australia"
+  },
+  {
+    "name": "Dunedin Airport",
+    "iata": "DUD",
+    "icao": "NZDN",
+    "lat": -45.9281005859375,
+    "lng": 170.197998046875,
+    "country": "New Zealand"
+  },
+  {
+    "name": "Emerald Airport",
+    "iata": "EMD",
+    "icao": "YEML",
+    "lat": -23.5674991608,
+    "lng": 148.179000854,
+    "country": "Australia"
+  },
+  {
+    "name": "Leonardo da Vinci–Fiumicino Airport",
+    "iata": "FCO",
+    "icao": "LIRF",
+    "lat": 41.8002778,
+    "lng": 12.2388889,
+    "country": "Italy"
+  },
+  {
+    "name": "Fukushima Airport",
+    "iata": "FKS",
+    "icao": "RJSF",
+    "lat": 37.22740173339844,
+    "lng": 140.43099975585938,
+    "country": "Japan"
+  },
+  {
+    "name": "Frankfurt am Main Airport",
+    "iata": "FRA",
+    "icao": "EDDF",
+    "lat": 50.033333,
+    "lng": 8.570556,
+    "country": "Germany"
+  },
+  {
     "name": "Fukuoka Airport",
     "iata": "FUK",
     "icao": "RJFF",
@@ -256,11 +456,259 @@
     "country": "Japan"
   },
   {
-    "name": "Kagoshima Airport",
-    "iata": "KOJ",
-    "icao": "RJFK",
-    "lat": 31.80340003967285,
-    "lng": 130.718994140625,
+    "name": "Geraldton Airport",
+    "iata": "GET",
+    "icao": "YGEL",
+    "lat": -28.796101,
+    "lng": 114.707001,
+    "country": "Australia"
+  },
+  {
+    "name": "Griffith Airport",
+    "iata": "GFF",
+    "icao": "YGTH",
+    "lat": -34.2508010864,
+    "lng": 146.067001343,
+    "country": "Australia"
+  },
+  {
+    "name": "Gladstone Airport",
+    "iata": "GLT",
+    "icao": "YGLA",
+    "lat": -23.869699,
+    "lng": 151.223007,
+    "country": "Australia"
+  },
+  {
+    "name": "Gimpo International Airport",
+    "iata": "GMP",
+    "icao": "RKSS",
+    "lat": 37.5583,
+    "lng": 126.791,
+    "country": "South Korea"
+  },
+  {
+    "name": "Noi Bai International Airport",
+    "iata": "HAN",
+    "icao": "VVNB",
+    "lat": 21.221200942993164,
+    "lng": 105.80699920654297,
+    "country": "Vietnam"
+  },
+  {
+    "name": "Hobart International Airport",
+    "iata": "HBA",
+    "icao": "YMHB",
+    "lat": -42.836101532,
+    "lng": 147.509994507,
+    "country": "Australia"
+  },
+  {
+    "name": "Hangzhou Xiaoshan International Airport",
+    "iata": "HGH",
+    "icao": "ZSHC",
+    "lat": 30.22949981689453,
+    "lng": 120.43399810791016,
+    "country": "China"
+  },
+  {
+    "name": "Horn Island Airport",
+    "iata": "HID",
+    "icao": "YHID",
+    "lat": -10.586400032,
+    "lng": 142.289993286,
+    "country": "Australia"
+  },
+  {
+    "name": "Hiroshima Airport",
+    "iata": "HIJ",
+    "icao": "RJOA",
+    "lat": 34.4361000061,
+    "lng": 132.919006348,
+    "country": "Japan"
+  },
+  {
+    "name": "Honiara International Airport",
+    "iata": "HIR",
+    "icao": "AGGH",
+    "lat": -9.4280004501343,
+    "lng": 160.05499267578,
+    "country": "Solomon Islands"
+  },
+  {
+    "name": "Hakodate Airport",
+    "iata": "HKD",
+    "icao": "RJCH",
+    "lat": 41.7700004578,
+    "lng": 140.822006226,
+    "country": "Japan"
+  },
+  {
+    "name": "Hong Kong International Airport",
+    "iata": "HKG",
+    "icao": "VHHH",
+    "lat": 22.308901,
+    "lng": 113.915001,
+    "country": "Hong Kong"
+  },
+  {
+    "name": "Phuket International Airport",
+    "iata": "HKT",
+    "icao": "VTSP",
+    "lat": 8.1132,
+    "lng": 98.316902,
+    "country": "Thailand"
+  },
+  {
+    "name": "Hamilton International Airport",
+    "iata": "HLZ",
+    "icao": "NZHN",
+    "lat": -37.8666992188,
+    "lng": 175.332000732,
+    "country": "New Zealand"
+  },
+  {
+    "name": "Hanamaki Airport",
+    "iata": "HNA",
+    "icao": "RJSI",
+    "lat": 39.4286003112793,
+    "lng": 141.13499450683594,
+    "country": "Japan"
+  },
+  {
+    "name": "Tokyo Haneda International Airport",
+    "iata": "HND",
+    "icao": "RJTT",
+    "lat": 35.552299,
+    "lng": 139.779999,
+    "country": "Japan"
+  },
+  {
+    "name": "Daniel K Inouye International Airport",
+    "iata": "HNL",
+    "icao": "PHNL",
+    "lat": 21.32062,
+    "lng": -157.924228,
+    "country": "United States"
+  },
+  {
+    "name": "Saga Airport",
+    "iata": "HSG",
+    "icao": "RJFS",
+    "lat": 33.149700164799995,
+    "lng": 130.302001953,
+    "country": "Japan"
+  },
+  {
+    "name": "Hamilton Island Airport",
+    "iata": "HTI",
+    "icao": "YBHM",
+    "lat": -20.3581008911,
+    "lng": 148.95199585,
+    "country": "Australia"
+  },
+  {
+    "name": "Hervey Bay Airport",
+    "iata": "HVB",
+    "icao": "YHBA",
+    "lat": -25.3188991547,
+    "lng": 152.880004883,
+    "country": "Australia"
+  },
+  {
+    "name": "George Bush Intercontinental Houston Airport",
+    "iata": "IAH",
+    "icao": "KIAH",
+    "lat": 29.984399795532227,
+    "lng": -95.34140014648438,
+    "country": "United States"
+  },
+  {
+    "name": "Incheon International Airport",
+    "iata": "ICN",
+    "icao": "RKSI",
+    "lat": 37.46910095214844,
+    "lng": 126.45099639892578,
+    "country": "South Korea"
+  },
+  {
+    "name": "Mount Isa Airport",
+    "iata": "ISA",
+    "icao": "YBMA",
+    "lat": -20.663900375399997,
+    "lng": 139.488998413,
+    "country": "Australia"
+  },
+  {
+    "name": "New Ishigaki Airport",
+    "iata": "ISG",
+    "icao": "ROIG",
+    "lat": 24.396389,
+    "lng": 124.245,
+    "country": "Japan"
+  },
+  {
+    "name": "John F Kennedy International Airport",
+    "iata": "JFK",
+    "icao": "KJFK",
+    "lat": 40.63980103,
+    "lng": -73.77890015,
+    "country": "United States"
+  },
+  {
+    "name": "OR Tambo International Airport",
+    "iata": "JNB",
+    "icao": "FAOR",
+    "lat": -26.1392,
+    "lng": 28.246,
+    "country": "South Africa"
+  },
+  {
+    "name": "Kōchi Ryōma Airport",
+    "iata": "KCZ",
+    "icao": "RJOK",
+    "lat": 33.546101,
+    "lng": 133.669006,
+    "country": "Japan"
+  },
+  {
+    "name": "Kingscote Airport",
+    "iata": "KGC",
+    "icao": "YKSC",
+    "lat": -35.71390151977539,
+    "lng": 137.52099609375,
+    "country": "Australia"
+  },
+  {
+    "name": "Kalgoorlie Boulder Airport",
+    "iata": "KGI",
+    "icao": "YPKG",
+    "lat": -30.789400100699996,
+    "lng": 121.461997986,
+    "country": "Australia"
+  },
+  {
+    "name": "Kaohsiung International Airport",
+    "iata": "KHH",
+    "icao": "RCKH",
+    "lat": 22.57710075378418,
+    "lng": 120.3499984741211,
+    "country": "Taiwan"
+  },
+  {
+    "name": "Niigata Airport",
+    "iata": "KIJ",
+    "icao": "RJSN",
+    "lat": 37.9558982849,
+    "lng": 139.121002197,
+    "country": "Japan"
+  },
+  {
+    "name": "Kansai International Airport",
+    "iata": "KIX",
+    "icao": "RJBB",
+    "lat": 34.42729949951172,
+    "lng": 135.24400329589844,
     "country": "Japan"
   },
   {
@@ -269,14 +717,6 @@
     "icao": "RJFM",
     "lat": 31.877199173,
     "lng": 131.449005127,
-    "country": "Japan"
-  },
-  {
-    "name": "Oita Airport",
-    "iata": "OIT",
-    "icao": "RJFO",
-    "lat": 33.479400634799994,
-    "lng": 131.736999512,
     "country": "Japan"
   },
   {
@@ -296,220 +736,36 @@
     "country": "Japan"
   },
   {
-    "name": "Toyama Airport",
-    "iata": "TOY",
-    "icao": "RJNT",
-    "lat": 36.64830017089844,
-    "lng": 137.18800354003906,
+    "name": "Kununurra Airport",
+    "iata": "KNX",
+    "icao": "YPKU",
+    "lat": -15.7781000137,
+    "lng": 128.707992554,
+    "country": "Australia"
+  },
+  {
+    "name": "Kagoshima Airport",
+    "iata": "KOJ",
+    "icao": "RJFK",
+    "lat": 31.80340003967285,
+    "lng": 130.718994140625,
     "country": "Japan"
   },
   {
-    "name": "Hiroshima Airport",
-    "iata": "HIJ",
-    "icao": "RJOA",
-    "lat": 34.4361000061,
-    "lng": 132.919006348,
-    "country": "Japan"
+    "name": "Karratha Airport",
+    "iata": "KTA",
+    "icao": "YPKA",
+    "lat": -20.712200164799995,
+    "lng": 116.773002625,
+    "country": "Australia"
   },
   {
-    "name": "Okayama Airport",
-    "iata": "OKJ",
-    "icao": "RJOB",
-    "lat": 34.7569007874,
-    "lng": 133.854995728,
-    "country": "Japan"
-  },
-  {
-    "name": "Miho Yonago Airport",
-    "iata": "YGJ",
-    "icao": "RJOH",
-    "lat": 35.4921989440918,
-    "lng": 133.23599243164062,
-    "country": "Japan"
-  },
-  {
-    "name": "Kōchi Ryōma Airport",
-    "iata": "KCZ",
-    "icao": "RJOK",
-    "lat": 33.546101,
-    "lng": 133.669006,
-    "country": "Japan"
-  },
-  {
-    "name": "Matsuyama Airport",
-    "iata": "MYJ",
-    "icao": "RJOM",
-    "lat": 33.82720184326172,
-    "lng": 132.6999969482422,
-    "country": "Japan"
-  },
-  {
-    "name": "Takamatsu Airport",
-    "iata": "TAK",
-    "icao": "RJOT",
-    "lat": 34.214199066199996,
-    "lng": 134.01600647,
-    "country": "Japan"
-  },
-  {
-    "name": "Aomori Airport",
-    "iata": "AOJ",
-    "icao": "RJSA",
-    "lat": 40.73469924926758,
-    "lng": 140.6909942626953,
-    "country": "Japan"
-  },
-  {
-    "name": "Hanamaki Airport",
-    "iata": "HNA",
-    "icao": "RJSI",
-    "lat": 39.4286003112793,
-    "lng": 141.13499450683594,
-    "country": "Japan"
-  },
-  {
-    "name": "Akita Airport",
-    "iata": "AXT",
-    "icao": "RJSK",
-    "lat": 39.6156005859375,
-    "lng": 140.218994140625,
-    "country": "Japan"
-  },
-  {
-    "name": "Sendai Airport",
-    "iata": "SDJ",
-    "icao": "RJSS",
-    "lat": 38.1397018433,
-    "lng": 140.917007446,
-    "country": "Japan"
-  },
-  {
-    "name": "Tokyo Haneda International Airport",
-    "iata": "HND",
-    "icao": "RJTT",
-    "lat": 35.552299,
-    "lng": 139.779999,
-    "country": "Japan"
-  },
-  {
-    "name": "Jeju International Airport",
-    "iata": "CJU",
-    "icao": "RKPC",
-    "lat": 33.51129913330078,
-    "lng": 126.49299621582031,
-    "country": "South Korea"
-  },
-  {
-    "name": "Gimhae International Airport",
-    "iata": "PUS",
-    "icao": "RKPK",
-    "lat": 35.1795005798,
-    "lng": 128.93800354,
-    "country": "South Korea"
-  },
-  {
-    "name": "Gimpo International Airport",
-    "iata": "GMP",
-    "icao": "RKSS",
-    "lat": 37.5583,
-    "lng": 126.791,
-    "country": "South Korea"
-  },
-  {
-    "name": "Naha Airport",
-    "iata": "OKA",
-    "icao": "ROAH",
-    "lat": 26.1958007812,
-    "lng": 127.646003723,
-    "country": "Japan"
-  },
-  {
-    "name": "New Ishigaki Airport",
-    "iata": "ISG",
-    "icao": "ROIG",
-    "lat": 24.396389,
-    "lng": 124.245,
-    "country": "Japan"
-  },
-  {
-    "name": "Ninoy Aquino International Airport",
-    "iata": "MNL",
-    "icao": "RPLL",
-    "lat": 14.5086,
-    "lng": 121.019997,
-    "country": "Philippines"
-  },
-  {
-    "name": "Hong Kong International Airport",
-    "iata": "HKG",
-    "icao": "VHHH",
-    "lat": 22.308901,
-    "lng": 113.915001,
-    "country": "Hong Kong"
-  },
-  {
-    "name": "Macau International Airport",
-    "iata": "MFM",
-    "icao": "VMMC",
-    "lat": 22.149599,
-    "lng": 113.592003,
-    "country": "Macau"
-  },
-  {
-    "name": "Phuket International Airport",
-    "iata": "HKT",
-    "icao": "VTSP",
-    "lat": 8.1132,
-    "lng": 98.316902,
-    "country": "Thailand"
-  },
-  {
-    "name": "Da Nang International Airport",
-    "iata": "DAD",
-    "icao": "VVDN",
-    "lat": 16.043899536132812,
-    "lng": 108.1989974975586,
-    "country": "Vietnam"
-  },
-  {
-    "name": "Noi Bai International Airport",
-    "iata": "HAN",
-    "icao": "VVNB",
-    "lat": 21.221200942993164,
-    "lng": 105.80699920654297,
-    "country": "Vietnam"
-  },
-  {
-    "name": "Phu Quoc International Airport",
-    "iata": "PQC",
-    "icao": "VVPQ",
-    "lat": 10.1698,
-    "lng": 103.9931,
-    "country": "Vietnam"
-  },
-  {
-    "name": "Tan Son Nhat International Airport",
-    "iata": "SGN",
-    "icao": "VVTS",
-    "lat": 10.8187999725,
-    "lng": 106.652000427,
-    "country": "Vietnam"
-  },
-  {
-    "name": "Yangon International Airport",
-    "iata": "RGN",
-    "icao": "VYYY",
-    "lat": 16.907300949099998,
-    "lng": 96.1332015991,
-    "country": "Burma"
-  },
-  {
-    "name": "Soekarno-Hatta International Airport",
-    "iata": "CGK",
-    "icao": "WIII",
-    "lat": -6.1255698204,
-    "lng": 106.65599823,
-    "country": "Indonesia"
+    "name": "Kratie Airport",
+    "iata": "KTI",
+    "icao": "VDKT",
+    "lat": 12.48799991607666,
+    "lng": 106.05500030517578,
+    "country": "Cambodia"
   },
   {
     "name": "Kuala Lumpur International Airport",
@@ -520,91 +776,43 @@
     "country": "Malaysia"
   },
   {
-    "name": "Penang International Airport",
-    "iata": "PEN",
-    "icao": "WMKP",
-    "lat": 5.297140121459961,
-    "lng": 100.2770004272461,
-    "country": "Malaysia"
+    "name": "Los Angeles International Airport",
+    "iata": "LAX",
+    "icao": "KLAX",
+    "lat": 33.94250107,
+    "lng": -118.4079971,
+    "country": "United States"
   },
   {
-    "name": "Singapore Changi Airport",
-    "iata": "SIN",
-    "icao": "WSSS",
-    "lat": 1.35019,
-    "lng": 103.994003,
-    "country": "Singapore"
-  },
-  {
-    "name": "Brisbane International Airport",
-    "iata": "BNE",
-    "icao": "YBBN",
-    "lat": -27.384199142456055,
-    "lng": 153.11700439453125,
+    "name": "Learmonth Airport",
+    "iata": "LEA",
+    "icao": "YPLM",
+    "lat": -22.235599517799997,
+    "lng": 114.088996887,
     "country": "Australia"
   },
   {
-    "name": "Gold Coast Airport",
-    "iata": "OOL",
-    "icao": "YBCG",
-    "lat": -28.1644001007,
-    "lng": 153.505004883,
+    "name": "London Heathrow Airport",
+    "iata": "LHR",
+    "icao": "EGLL",
+    "lat": 51.4706,
+    "lng": -0.461941,
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Leonora Airport",
+    "iata": "LNO",
+    "icao": "YLEO",
+    "lat": -28.87809944152832,
+    "lng": 121.31500244140625,
     "country": "Australia"
   },
   {
-    "name": "Cairns International Airport",
-    "iata": "CNS",
-    "icao": "YBCS",
-    "lat": -16.885799408,
-    "lng": 145.755004883,
-    "country": "Australia"
-  },
-  {
-    "name": "Sunshine Coast Airport",
-    "iata": "MCY",
-    "icao": "YBMC",
-    "lat": -26.6033,
-    "lng": 153.091003,
-    "country": "Australia"
-  },
-  {
-    "name": "Mackay Airport",
-    "iata": "MKY",
-    "icao": "YBMK",
-    "lat": -21.171699523900003,
-    "lng": 149.179992676,
-    "country": "Australia"
-  },
-  {
-    "name": "Proserpine Whitsunday Coast Airport",
-    "iata": "PPP",
-    "icao": "YBPN",
-    "lat": -20.4950008392,
-    "lng": 148.552001953,
-    "country": "Australia"
-  },
-  {
-    "name": "Townsville Airport",
-    "iata": "TSV",
-    "icao": "YBTL",
-    "lat": -19.252500534057617,
-    "lng": 146.76499938964844,
-    "country": "Australia"
-  },
-  {
-    "name": "Avalon Airport",
-    "iata": "AVV",
-    "icao": "YMAV",
-    "lat": -38.039398,
-    "lng": 144.468994,
-    "country": "Australia"
-  },
-  {
-    "name": "Hobart International Airport",
-    "iata": "HBA",
-    "icao": "YMHB",
-    "lat": -42.836101532,
-    "lng": 147.509994507,
+    "name": "Longreach Airport",
+    "iata": "LRE",
+    "icao": "YLRE",
+    "lat": -23.4342002869,
+    "lng": 144.279998779,
     "country": "Australia"
   },
   {
@@ -616,6 +824,14 @@
     "country": "Australia"
   },
   {
+    "name": "Sunshine Coast Airport",
+    "iata": "MCY",
+    "icao": "YBMC",
+    "lat": -26.6033,
+    "lng": 153.091003,
+    "country": "Australia"
+  },
+  {
     "name": "Melbourne International Airport",
     "iata": "MEL",
     "icao": "YMML",
@@ -624,35 +840,219 @@
     "country": "Australia"
   },
   {
-    "name": "Adelaide International Airport",
-    "iata": "ADL",
-    "icao": "YPAD",
-    "lat": -34.945,
-    "lng": 138.531006,
+    "name": "Macau International Airport",
+    "iata": "MFM",
+    "icao": "VMMC",
+    "lat": 22.149599,
+    "lng": 113.592003,
+    "country": "Macau"
+  },
+  {
+    "name": "Mount Gambier Airport",
+    "iata": "MGB",
+    "icao": "YMTG",
+    "lat": -37.745601654052734,
+    "lng": 140.78500366210938,
     "country": "Australia"
   },
   {
-    "name": "Perth International Airport",
-    "iata": "PER",
-    "icao": "YPPH",
-    "lat": -31.94029998779297,
-    "lng": 115.96700286865234,
+    "name": "Merimbula Airport",
+    "iata": "MIM",
+    "icao": "YMER",
+    "lat": -36.9085998535,
+    "lng": 149.901000977,
     "country": "Australia"
   },
   {
-    "name": "Canberra International Airport",
-    "iata": "CBR",
-    "icao": "YSCB",
-    "lat": -35.30690002441406,
-    "lng": 149.19500732421875,
+    "name": "Mackay Airport",
+    "iata": "MKY",
+    "icao": "YBMK",
+    "lat": -21.171699523900003,
+    "lng": 149.179992676,
     "country": "Australia"
   },
   {
-    "name": "Sydney Kingsford Smith International Airport",
-    "iata": "SYD",
-    "icao": "YSSY",
-    "lat": -33.94609832763672,
-    "lng": 151.177001953125,
+    "name": "Ninoy Aquino International Airport",
+    "iata": "MNL",
+    "icao": "RPLL",
+    "lat": 14.5086,
+    "lng": 121.019997,
+    "country": "Philippines"
+  },
+  {
+    "name": "Moranbah Airport",
+    "iata": "MOV",
+    "icao": "YMRB",
+    "lat": -22.057800293,
+    "lng": 148.07699585,
+    "country": "Australia"
+  },
+  {
+    "name": "Mildura Airport",
+    "iata": "MQL",
+    "icao": "YMIA",
+    "lat": -34.229198455799995,
+    "lng": 142.085998535,
+    "country": "Australia"
+  },
+  {
+    "name": "Munich Airport",
+    "iata": "MUC",
+    "icao": "EDDM",
+    "lat": 48.353802,
+    "lng": 11.7861,
+    "country": "Germany"
+  },
+  {
+    "name": "Malpensa International Airport",
+    "iata": "MXP",
+    "icao": "LIMC",
+    "lat": 45.6306,
+    "lng": 8.72811,
+    "country": "Italy"
+  },
+  {
+    "name": "Matsuyama Airport",
+    "iata": "MYJ",
+    "icao": "RJOM",
+    "lat": 33.82720184326172,
+    "lng": 132.6999969482422,
+    "country": "Japan"
+  },
+  {
+    "name": "Nadi International Airport",
+    "iata": "NAN",
+    "icao": "NFFN",
+    "lat": -17.755399703979492,
+    "lng": 177.4429931640625,
+    "country": "Fiji"
+  },
+  {
+    "name": "Chubu Centrair International Airport",
+    "iata": "NGO",
+    "icao": "RJGG",
+    "lat": 34.8583984375,
+    "lng": 136.80499267578125,
+    "country": "Japan"
+  },
+  {
+    "name": "Norfolk Island International Airport",
+    "iata": "NLK",
+    "icao": "YSNF",
+    "lat": -29.04159927368164,
+    "lng": 167.93899536132812,
+    "country": "Norfolk Island"
+  },
+  {
+    "name": "La Tontouta International Airport",
+    "iata": "NOU",
+    "icao": "NWWW",
+    "lat": -22.01460075378418,
+    "lng": 166.21299743652344,
+    "country": "New Caledonia"
+  },
+  {
+    "name": "Narita International Airport",
+    "iata": "NRT",
+    "icao": "RJAA",
+    "lat": 35.7647018433,
+    "lng": 140.386001587,
+    "country": "Japan"
+  },
+  {
+    "name": "Newcastle Airport",
+    "iata": "NTL",
+    "icao": "YWLM",
+    "lat": -32.79499816894531,
+    "lng": 151.83399963378906,
+    "country": "Australia"
+  },
+  {
+    "name": "Orange Airport",
+    "iata": "OAG",
+    "icao": "YORG",
+    "lat": -33.3816986084,
+    "lng": 149.132995605,
+    "country": "Australia"
+  },
+  {
+    "name": "Boolgeeda",
+    "iata": "OCM",
+    "icao": "YBGD",
+    "lat": -22.54,
+    "lng": 117.275,
+    "country": "Australia"
+  },
+  {
+    "name": "Oita Airport",
+    "iata": "OIT",
+    "icao": "RJFO",
+    "lat": 33.479400634799994,
+    "lng": 131.736999512,
+    "country": "Japan"
+  },
+  {
+    "name": "Naha Airport",
+    "iata": "OKA",
+    "icao": "ROAH",
+    "lat": 26.1958007812,
+    "lng": 127.646003723,
+    "country": "Japan"
+  },
+  {
+    "name": "Okayama Airport",
+    "iata": "OKJ",
+    "icao": "RJOB",
+    "lat": 34.7569007874,
+    "lng": 133.854995728,
+    "country": "Japan"
+  },
+  {
+    "name": "Onslow Airport",
+    "iata": "ONS",
+    "icao": "YOLW",
+    "lat": -21.668300628662,
+    "lng": 115.1129989624,
+    "country": "Australia"
+  },
+  {
+    "name": "Ontario International Airport",
+    "iata": "ONT",
+    "icao": "KONT",
+    "lat": 34.055999755859375,
+    "lng": -117.60099792480469,
+    "country": "United States"
+  },
+  {
+    "name": "Gold Coast Airport",
+    "iata": "OOL",
+    "icao": "YBCG",
+    "lat": -28.1644001007,
+    "lng": 153.505004883,
+    "country": "Australia"
+  },
+  {
+    "name": "Cooma Snowy Mountains Airport",
+    "iata": "OOM",
+    "icao": "YCOM",
+    "lat": -36.3005981445,
+    "lng": 148.973999023,
+    "country": "Australia"
+  },
+  {
+    "name": "Chicago O'Hare International Airport",
+    "iata": "ORD",
+    "icao": "KORD",
+    "lat": 41.9786,
+    "lng": -87.9048,
+    "country": "United States"
+  },
+  {
+    "name": "Paraburdoo Airport",
+    "iata": "PBO",
+    "icao": "YPBO",
+    "lat": -23.1711006165,
+    "lng": 117.745002747,
     "country": "Australia"
   },
   {
@@ -664,52 +1064,92 @@
     "country": "China"
   },
   {
-    "name": "Guangzhou Baiyun International Airport",
-    "iata": "CAN",
-    "icao": "ZGGG",
-    "lat": 23.39240074157715,
-    "lng": 113.29900360107422,
-    "country": "China"
+    "name": "Penang International Airport",
+    "iata": "PEN",
+    "icao": "WMKP",
+    "lat": 5.297140121459961,
+    "lng": 100.2770004272461,
+    "country": "Malaysia"
   },
   {
-    "name": "Shenzhen Bao'an International Airport",
-    "iata": "SZX",
-    "icao": "ZGSZ",
-    "lat": 22.639299392700195,
-    "lng": 113.81099700927734,
-    "country": "China"
+    "name": "Perth International Airport",
+    "iata": "PER",
+    "icao": "YPPH",
+    "lat": -31.94029998779297,
+    "lng": 115.96700286865234,
+    "country": "Australia"
   },
   {
-    "name": "Xiamen Gaoqi International Airport",
-    "iata": "XMN",
-    "icao": "ZSAM",
-    "lat": 24.54400062561035,
-    "lng": 118.12799835205078,
-    "country": "China"
+    "name": "Port Hedland International Airport",
+    "iata": "PHE",
+    "icao": "YPPD",
+    "lat": -20.3777999878,
+    "lng": 118.625999451,
+    "country": "Australia"
   },
   {
-    "name": "Hangzhou Xiaoshan International Airport",
-    "iata": "HGH",
-    "icao": "ZSHC",
-    "lat": 30.22949981689453,
-    "lng": 120.43399810791016,
-    "country": "China"
+    "name": "Phoenix Sky Harbor International Airport",
+    "iata": "PHX",
+    "icao": "KPHX",
+    "lat": 33.43429946899414,
+    "lng": -112.01200103759766,
+    "country": "United States"
   },
   {
-    "name": "Shanghai Hongqiao International Airport",
-    "iata": "SHA",
-    "icao": "ZSSS",
-    "lat": 31.197900772094727,
-    "lng": 121.33599853515625,
-    "country": "China"
+    "name": "Port Lincoln Airport",
+    "iata": "PLO",
+    "icao": "YPLC",
+    "lat": -34.6053009033,
+    "lng": 135.880004883,
+    "country": "Australia"
   },
   {
-    "name": "Chongqing Jiangbei International Airport",
-    "iata": "CKG",
-    "icao": "ZUCK",
-    "lat": 29.719200134277344,
-    "lng": 106.64199829101562,
-    "country": "China"
+    "name": "Port Moresby Jacksons International Airport",
+    "iata": "POM",
+    "icao": "AYPY",
+    "lat": -9.443380355834961,
+    "lng": 147.22000122070312,
+    "country": "Papua New Guinea"
+  },
+  {
+    "name": "Proserpine Whitsunday Coast Airport",
+    "iata": "PPP",
+    "icao": "YBPN",
+    "lat": -20.4950008392,
+    "lng": 148.552001953,
+    "country": "Australia"
+  },
+  {
+    "name": "Phu Quoc International Airport",
+    "iata": "PQC",
+    "icao": "VVPQ",
+    "lat": 10.1698,
+    "lng": 103.9931,
+    "country": "Vietnam"
+  },
+  {
+    "name": "Port Macquarie Airport",
+    "iata": "PQQ",
+    "icao": "YPMQ",
+    "lat": -31.4358005524,
+    "lng": 152.863006592,
+    "country": "Australia"
+  },
+  {
+    "name": "Václav Havel Airport Prague",
+    "iata": "PRG",
+    "icao": "LKPR",
+    "lat": 50.1008,
+    "lng": 14.26,
+    "country": "Czech Republic"
+  },
+  {
+    "name": "Gimhae International Airport",
+    "iata": "PUS",
+    "icao": "RKPK",
+    "lat": 35.1795005798,
+    "lng": 128.93800354,
+    "country": "South Korea"
   },
   {
     "name": "Shanghai Pudong International Airport",
@@ -720,11 +1160,67 @@
     "country": "China"
   },
   {
-    "name": "Phoenix Sky Harbor International Airport",
-    "iata": "PHX",
-    "icao": "KPHX",
-    "lat": 33.43429946899414,
-    "lng": -112.01200103759766,
+    "name": "Rarotonga International Airport",
+    "iata": "RAR",
+    "icao": "NCRG",
+    "lat": -21.2026996613,
+    "lng": -159.805999756,
+    "country": "Cook Islands"
+  },
+  {
+    "name": "Yangon International Airport",
+    "iata": "RGN",
+    "icao": "VYYY",
+    "lat": 16.907300949099998,
+    "lng": 96.1332015991,
+    "country": "Burma"
+  },
+  {
+    "name": "Taichung Ching Chuang Kang Airport",
+    "iata": "RMQ",
+    "icao": "RCMQ",
+    "lat": 24.264699935913086,
+    "lng": 120.62100219726562,
+    "country": "Taiwan"
+  },
+  {
+    "name": "Rockhampton Airport",
+    "iata": "ROK",
+    "icao": "YBRK",
+    "lat": -23.3819007874,
+    "lng": 150.475006104,
+    "country": "Australia"
+  },
+  {
+    "name": "Babelthuap Airport",
+    "iata": "ROR",
+    "icao": "PTRO",
+    "lat": 7.36731,
+    "lng": 134.544236,
+    "country": "Palau"
+  },
+  {
+    "name": "Comodoro Arturo Merino Benítez International Airport",
+    "iata": "SCL",
+    "icao": "SCEL",
+    "lat": -33.393001556396484,
+    "lng": -70.78579711914062,
+    "country": "Chile"
+  },
+  {
+    "name": "Sendai Airport",
+    "iata": "SDJ",
+    "icao": "RJSS",
+    "lat": 38.1397018433,
+    "lng": 140.917007446,
+    "country": "Japan"
+  },
+  {
+    "name": "Seattle Tacoma International Airport",
+    "iata": "SEA",
+    "icao": "KSEA",
+    "lat": 47.449001,
+    "lng": -122.308998,
     "country": "United States"
   },
   {
@@ -736,100 +1232,108 @@
     "country": "United States"
   },
   {
-    "name": "Los Angeles International Airport",
-    "iata": "LAX",
-    "icao": "KLAX",
-    "lat": 33.94250107,
-    "lng": -118.4079971,
-    "country": "United States"
+    "name": "Tan Son Nhat International Airport",
+    "iata": "SGN",
+    "icao": "VVTS",
+    "lat": 10.8187999725,
+    "lng": 106.652000427,
+    "country": "Vietnam"
   },
   {
-    "name": "George Bush Intercontinental Houston Airport",
-    "iata": "IAH",
-    "icao": "KIAH",
-    "lat": 29.984399795532227,
-    "lng": -95.34140014648438,
-    "country": "United States"
+    "name": "Shanghai Hongqiao International Airport",
+    "iata": "SHA",
+    "icao": "ZSSS",
+    "lat": 31.197900772094727,
+    "lng": 121.33599853515625,
+    "country": "China"
   },
   {
-    "name": "Seattle Tacoma International Airport",
-    "iata": "SEA",
-    "icao": "KSEA",
-    "lat": 47.449001,
-    "lng": -122.308998,
-    "country": "United States"
+    "name": "Singapore Changi Airport",
+    "iata": "SIN",
+    "icao": "WSSS",
+    "lat": 1.35019,
+    "lng": 103.994003,
+    "country": "Singapore"
   },
   {
-    "name": "Dallas Fort Worth International Airport",
-    "iata": "DFW",
-    "icao": "KDFW",
-    "lat": 32.896801,
-    "lng": -97.038002,
-    "country": "United States"
+    "name": "Sydney Kingsford Smith International Airport",
+    "iata": "SYD",
+    "icao": "YSSY",
+    "lat": -33.94609832763672,
+    "lng": 151.177001953125,
+    "country": "Australia"
   },
   {
-    "name": "Ontario International Airport",
-    "iata": "ONT",
-    "icao": "KONT",
-    "lat": 34.055999755859375,
-    "lng": -117.60099792480469,
-    "country": "United States"
+    "name": "Shenzhen Bao'an International Airport",
+    "iata": "SZX",
+    "icao": "ZGSZ",
+    "lat": 22.639299392700195,
+    "lng": 113.81099700927734,
+    "country": "China"
   },
   {
-    "name": "John F Kennedy International Airport",
-    "iata": "JFK",
-    "icao": "KJFK",
-    "lat": 40.63980103,
-    "lng": -73.77890015,
-    "country": "United States"
-  },
-  {
-    "name": "Chicago O'Hare International Airport",
-    "iata": "ORD",
-    "icao": "KORD",
-    "lat": 41.9786,
-    "lng": -87.9048,
-    "country": "United States"
-  },
-  {
-    "name": "Suvarnabhumi Airport",
-    "iata": "BKK",
-    "icao": "VTBS",
-    "lat": 13.681099891662598,
-    "lng": 100.74700164794922,
-    "country": "Thailand"
-  },
-  {
-    "name": "Incheon International Airport",
-    "iata": "ICN",
-    "icao": "RKSI",
-    "lat": 37.46910095214844,
-    "lng": 126.45099639892578,
-    "country": "South Korea"
-  },
-  {
-    "name": "Chiang Mai International Airport",
-    "iata": "CNX",
-    "icao": "VTCC",
-    "lat": 18.766799926799997,
-    "lng": 98.962600708,
-    "country": "Thailand"
-  },
-  {
-    "name": "Ngurah Rai (Bali) International Airport",
-    "iata": "DPS",
-    "icao": "WADD",
-    "lat": -8.7481698989868,
-    "lng": 115.16699981689,
-    "country": "Indonesia"
-  },
-  {
-    "name": "Chubu Centrair International Airport",
-    "iata": "NGO",
-    "icao": "RJGG",
-    "lat": 34.8583984375,
-    "lng": 136.80499267578125,
+    "name": "Takamatsu Airport",
+    "iata": "TAK",
+    "icao": "RJOT",
+    "lat": 34.214199066199996,
+    "lng": 134.01600647,
     "country": "Japan"
+  },
+  {
+    "name": "Fua'amotu International Airport",
+    "iata": "TBU",
+    "icao": "NFTF",
+    "lat": -21.241199493408203,
+    "lng": -175.14999389648438,
+    "country": "Tonga"
+  },
+  {
+    "name": "Tamworth Airport",
+    "iata": "TMW",
+    "icao": "YSTW",
+    "lat": -31.0839004517,
+    "lng": 150.847000122,
+    "country": "Australia"
+  },
+  {
+    "name": "Tainan Airport",
+    "iata": "TNN",
+    "icao": "RCNN",
+    "lat": 22.95039939880371,
+    "lng": 120.20600128173828,
+    "country": "Taiwan"
+  },
+  {
+    "name": "Toyama Airport",
+    "iata": "TOY",
+    "icao": "RJNT",
+    "lat": 36.64830017089844,
+    "lng": 137.18800354003906,
+    "country": "Japan"
+  },
+  {
+    "name": "Taiwan Taoyuan International Airport",
+    "iata": "TPE",
+    "icao": "RCTP",
+    "lat": 25.0777,
+    "lng": 121.233002,
+    "country": "Taiwan"
+  },
+  {
+    "name": "Taipei Songshan Airport",
+    "iata": "TSA",
+    "icao": "RCSS",
+    "lat": 25.069400787353516,
+    "lng": 121.552001953125,
+    "country": "Taiwan"
+  },
+  {
+    "name": "Townsville Airport",
+    "iata": "TSV",
+    "icao": "YBTL",
+    "lat": -19.252500534057617,
+    "lng": 146.76499938964844,
+    "country": "Australia"
   },
   {
     "name": "Kobe Airport",
@@ -840,108 +1344,116 @@
     "country": "Japan"
   },
   {
-    "name": "Kansai International Airport",
-    "iata": "KIX",
-    "icao": "RJBB",
-    "lat": 34.42729949951172,
-    "lng": 135.24400329589844,
+    "name": "Vienna International Airport",
+    "iata": "VIE",
+    "icao": "LOWW",
+    "lat": 48.110298156738,
+    "lng": 16.569700241089,
+    "country": "Austria"
+  },
+  {
+    "name": "Bauerfield International Airport",
+    "iata": "VLI",
+    "icao": "NVVV",
+    "lat": -17.699300765991,
+    "lng": 168.32000732422,
+    "country": "Vanuatu"
+  },
+  {
+    "name": "Weipa Airport",
+    "iata": "WEI",
+    "icao": "YBWP",
+    "lat": -12.6786003113,
+    "lng": 141.925003052,
+    "country": "Australia"
+  },
+  {
+    "name": "Wagga Wagga City Airport",
+    "iata": "WGA",
+    "icao": "YSWG",
+    "lat": -35.1652984619,
+    "lng": 147.466003418,
+    "country": "Australia"
+  },
+  {
+    "name": "Wellington International Airport",
+    "iata": "WLG",
+    "icao": "NZWN",
+    "lat": -41.3272018433,
+    "lng": 174.804992676,
+    "country": "New Zealand"
+  },
+  {
+    "name": "Toowoomba Wellcamp Airport",
+    "iata": "WTB",
+    "icao": "YBWW",
+    "lat": -27.558332,
+    "lng": 151.793335,
+    "country": "Australia"
+  },
+  {
+    "name": "Whyalla Airport",
+    "iata": "WYA",
+    "icao": "YWHA",
+    "lat": -33.05889892578125,
+    "lng": 137.51400756835938,
+    "country": "Australia"
+  },
+  {
+    "name": "Christmas Island Airport",
+    "iata": "XCH",
+    "icao": "YPXM",
+    "lat": -10.450599670410156,
+    "lng": 105.69000244140625,
+    "country": "Christmas Island"
+  },
+  {
+    "name": "Xiamen Gaoqi International Airport",
+    "iata": "XMN",
+    "icao": "ZSAM",
+    "lat": 24.54400062561035,
+    "lng": 118.12799835205078,
+    "country": "China"
+  },
+  {
+    "name": "Miho Yonago Airport",
+    "iata": "YGJ",
+    "icao": "RJOH",
+    "lat": 35.4921989440918,
+    "lng": 133.23599243164062,
     "country": "Japan"
   },
   {
-    "name": "Darwin International Airport",
-    "iata": "DRW",
-    "icao": "YPDN",
-    "lat": -12.41469955444336,
-    "lng": 130.8769989013672,
+    "name": "Vancouver International Airport",
+    "iata": "YVR",
+    "icao": "CYVR",
+    "lat": 49.193901062,
+    "lng": -123.183998108,
+    "country": "Canada"
+  },
+  {
+    "name": "Lester B. Pearson International Airport",
+    "iata": "YYZ",
+    "icao": "CYYZ",
+    "lat": 43.6772003174,
+    "lng": -79.63059997559999,
+    "country": "Canada"
+  },
+  {
+    "name": "Newman Airport",
+    "iata": "ZNE",
+    "icao": "YNWN",
+    "lat": -23.417800903299998,
+    "lng": 119.803001404,
     "country": "Australia"
   },
   {
-    "name": "Ayers Rock Connellan Airport",
-    "iata": "AYQ",
-    "icao": "YAYE",
-    "lat": -25.1861,
-    "lng": 130.975998,
-    "country": "Australia"
-  },
-  {
-    "name": "Hervey Bay Airport",
-    "iata": "HVB",
-    "icao": "YHBA",
-    "lat": -25.3188991547,
-    "lng": 152.880004883,
-    "country": "Australia"
-  },
-  {
-    "name": "Diosdado Macapagal International Airport",
-    "iata": "CRK",
-    "icao": "RPLC",
-    "lat": 15.186,
-    "lng": 120.559998,
-    "country": "Philippines"
-  },
-  {
-    "name": "Mactan Cebu International Airport",
-    "iata": "CEB",
-    "icao": "RPVM",
-    "lat": 10.307499885559,
-    "lng": 123.97899627686,
-    "country": "Philippines"
-  },
-  {
-    "name": "Ballina Byron Gateway Airport",
-    "iata": "BNK",
-    "icao": "YBNA",
-    "lat": -28.8339004517,
-    "lng": 153.56199646,
-    "country": "Australia"
-  },
-  {
-    "name": "Newcastle Airport",
-    "iata": "NTL",
-    "icao": "YWLM",
-    "lat": -32.79499816894531,
-    "lng": 151.83399963378906,
-    "country": "Australia"
-  },
-  {
-    "name": "Niigata Airport",
-    "iata": "KIJ",
-    "icao": "RJSN",
-    "lat": 37.9558982849,
-    "lng": 139.121002197,
-    "country": "Japan"
-  },
-  {
-    "name": "Saga Airport",
-    "iata": "HSG",
-    "icao": "RJFS",
-    "lat": 33.149700164799995,
-    "lng": 130.302001953,
-    "country": "Japan"
-  },
-  {
-    "name": "Fukushima Airport",
-    "iata": "FKS",
-    "icao": "RJSF",
-    "lat": 37.22740173339844,
-    "lng": 140.43099975585938,
-    "country": "Japan"
-  },
-  {
-    "name": "Kratie Airport",
-    "iata": "KTI",
-    "icao": "VDKT",
-    "lat": 12.48799991607666,
-    "lng": 106.05500030517578,
-    "country": "Cambodia"
-  },
-  {
-    "name": "Busselton Regional Airport",
-    "iata": "BQB",
-    "icao": "YBLN",
-    "lat": -33.6884231567,
-    "lng": 115.401596069,
-    "country": "Australia"
+    "name": "Queenstown International Airport",
+    "iata": "ZQN",
+    "icao": "NZQN",
+    "lat": -45.0210990906,
+    "lng": 168.738998413,
+    "country": "New Zealand"
   },
   {
   "iata": "FSZ",
@@ -958,6 +1470,45 @@
   "lat": 30.5865,
   "lng": 104.0655,
   "country": "China"
+},
+{
+  "name": "Oodnadatta Airport",
+  "iata": "ODD",
+  "icao": "YOOD",
+  "lat": -27.5617008,
+  "lng": 135.4470062,
+  "country": "Australia"
+},
+{
+  "name": "Koodaideri Mine Airport",
+  "iata": "OOD",
+  "icao": "YKDD",
+  "lat": -22.5041667,
+  "lng": 119.0769445,
+  "country": "Australia"
+},
+{
+  "name": "Miles Airport",
+  "iata": "WLE",
+  "icao": "YMLS",
+  "lat": -26.8091667,
+  "lng": 150.165,
+  "country": "Australia"
+},
+{
+  "name": "West Angelas Airport",
+  "iata": "WLP",
+  "icao": "YANG",
+  "lat": -23.1355556,
+  "lng": 118.7072222,
+  "country": "Australia"
+},
+{
+  "name": "Gruyere Airport",
+  "iata": "GYZ",
+  "icao": "YGRM",
+  "lat": -28.0341667,
+  "lng": 123.8144444,
+  "country": "Australia"
 }
-
 ]

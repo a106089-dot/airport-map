@@ -12,6 +12,8 @@ node generate_airports.js
 5 缺失的另外加入
 6 貼到繪圖資料夾
 
+https://www.world-airport-codes.com/australia/oodnadatta-5481.html
+
 {
   "iata": "FSZ",
   "icao": "RJNS",
@@ -27,4 +29,44 @@ node generate_airports.js
   "lat": 30.5865,
   "lng": 104.0655,
   "country": "China"
+},
+{
+  "name": "Oodnadatta Airport",
+  "iata": "ODD",
+  "icao": "YOOD",
+  "lat": -27.5617008,
+  "lng": 135.4470062,
+  "country": "Australia"
+},
+{
+  "name": "Koodaideri Mine Airport",
+  "iata": "OOD",
+  "icao": "YKDD",
+  "lat": -22.5041667,
+  "lng": 119.0769445,
+  "country": "Australia"
+},
+{
+  "name": "Miles Airport",
+  "iata": "WLE",
+  "icao": "YMLS",
+  "lat": -26.8091667,
+  "lng": 150.165,
+  "country": "Australia"
+},
+{
+  "name": "West Angelas Airport",
+  "iata": "WLP",
+  "icao": "YANG",
+  "lat": -23.1355556,
+  "lng": 118.7072222,
+  "country": "Australia"
+},
+{
+  "name": "Gruyere Airport",
+  "iata": "GYZ",
+  "icao": "YGRM",
+  "lat": -28.0341667,
+  "lng": 123.8144444,
+  "country": "Australia"
 }
