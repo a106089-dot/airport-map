@@ -73,7 +73,7 @@
   { "note": "菲律賓"},
   { "from": "TPE", "to": "CRK", "airline": ["BR", "JX"] },
   { "from": "TPE", "to": "CEB", "airline": ["CI", "BR", "JX"] },
-  { "from": "TPE", "to": "MNL", "airline": ["CI", "BR"] },
+  { "from": "TPE", "to": "MNL", "airline": ["CI", "BR", "JX"] },
 
   { "note": "美國"},
   { "from": "TPE", "to": "LAX", "airline": ["CI", "BR", "JX"] },
